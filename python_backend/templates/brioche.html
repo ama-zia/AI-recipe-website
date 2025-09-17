@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Brioche Bread - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Sweet Delights</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Brioche Bread</h2>
+
+    <img src="{{ url_for('static', filename='images/brioche.jpeg') }}" alt="Brioche Bread" class="recipe-image">
+
+    <p>
+      Brioche is one of those magical baked goods that sits at the intersection of bread and dessert. 
+      It's rich with butter and eggs, lightly sweet, and impossibly soft inside with a golden crust 
+      that feels like something you’d only get at a French bakery. If you’ve ever hesitated to bake 
+      bread from scratch, let this be your gateway. It’s a forgiving dough if you take your time, 
+      and the result is worth every minute. The key to acing this recipe lies in the kneading — don’t 
+      rush it. Let the dough pull together fully before adding the butter, and don’t skip the cold 
+      overnight fermentation step; it deepens the flavor and improves the texture. Use a kitchen scale 
+      for best accuracy and don’t be afraid of sticky dough — it’s meant to be that way. 
+    </p>
+    <p>
+      We’ve also built an AI chatbot right into this recipe website — just ask if you need a vegan, 
+      gluten-free, or healthier version of this brioche. Whether you want to substitute the eggs, 
+      the dairy, or reduce the sugar, our chatbot will suggest smart swaps tailored to your needs 
+      without compromising the quality of your bake.  
+    </p>
+
+    <p><strong>Serving size:</strong> 1 loaf or 12 buns</p>
+    <p><strong>Baking temperature:</strong> 180°C / 350°F</p>
+    <p><strong>Baking time:</strong> Loaf: 25–30 minutes | Buns: 18–20 minutes</p>
+    <p><strong>Cooling time:</strong> Let cool for at least 20 minutes before slicing</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <h4>Dry:</h4>
+      <ul>
+        <li>3 ¼ cups (400g) bread flour</li>
+        <li>2 tbsp (25g) granulated sugar</li>
+        <li>1 tsp salt</li>
+      </ul>
+      <h4>Wet:</h4>
+      <ul>
+        <li>3 large eggs (room temp)</li>
+        <li>⅓ cup (80ml) warm milk</li>
+        <li>2 ¼ tsp (7g) instant yeast</li>
+        <li>170g (¾ cup) unsalted butter, softened</li>
+        <li>1 tsp vanilla extract (optional)</li>
+      </ul>
+      <h4>Egg Wash:</h4>
+      <ul>
+        <li>1 egg + 1 tbsp milk, beaten</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <li><strong>Activate Yeast:</strong> Mix warm milk, yeast, and 1 tsp sugar. Let sit 5–10 min until foamy (optional step for instant yeast).</li>
+        <li><strong>Make Dough:</strong> In stand mixer, combine flour, sugar, and salt. Add eggs, yeast mixture, and vanilla. Mix on low for 2–3 min until rough dough forms.</li>
+        <li><strong>Knead + Add Butter:</strong> Knead on medium 5–6 min. Add softened butter a spoonful at a time. Knead 10–12 more min until dough is smooth, stretchy, shiny, and slightly sticky.</li>
+        <li><strong>First Rise:</strong> Place dough in greased bowl, cover, and rise for 1.5–2 hrs until doubled.</li>
+        <li><strong>Cold Fermentation:</strong> Punch down, wrap, and refrigerate overnight (or at least 6 hrs).</li>
+        <li><strong>Shape:</strong> For loaf: divide into 3–4 balls and place in buttered loaf pan. For buns: divide into 12 pieces and roll into balls.</li>
+        <li><strong>Second Rise:</strong> Let shaped dough rise 1.5–2 hrs until puffy and doubled.</li>
+        <li><strong>Bake:</strong> Preheat oven to 180°C / 350°F. Brush with egg wash.  
+          <ul>
+            <li>Loaf: bake 25–30 min</li>
+            <li>Buns: bake 18–20 min</li>
+            <li>Cover loosely with foil if browning too fast</li>
+          </ul>
+        </li>
+        <li><strong>Cool & Serve:</strong> Let cool 20 min before slicing. Enjoy with butter, jam, or lightly toasted.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Soft, rich, golden — brioche is the queen of bread</p>
+  </footer>
+</body>
+</html>

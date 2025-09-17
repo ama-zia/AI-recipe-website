@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple Crumble Pie - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Apple Crumble Pie</h2>
+
+    <img src="{{ url_for('static', filename='images/apple-pie.jpeg') }}" alt="Apple Crumble Pie" class="recipe-image">
+
+    <p>
+      Apple Crumble Pie is one of those desserts that manages to strike the perfect balance 
+      between rustic comfort and impressive presentation. It's not about perfection here—it's about 
+      texture, warmth, and a satisfying crunch layered over a soft, spiced apple filling. If you want 
+      to truly master this pie, use firm tart apples like Granny Smiths and don’t skip resting the 
+      filling before baking; it draws out juices for a rich, caramel-like flavor. Make sure your 
+      crumble topping stays chilled before baking so it crisps up properly. You can even blind-bake 
+      the crust for a crisper base if you're worried about sogginess. 
+    </p>
+    <p>
+      If you have dietary preferences, we’ve got you covered. Our built-in AI baking assistant can 
+      instantly provide a vegan, gluten-free, or healthier version of this exact recipe—or suggest 
+      substitutions based on what ingredients you have. Just click the chatbot icon at the bottom 
+      corner to get started. It’s like having a smart kitchen buddy guiding you as you bake.
+    </p>
+
+    <p><strong>Serving Size:</strong> 8 slices</p>
+    <p><strong>Baking Temperature:</strong> 190°C / 375°F</p>
+    <p><strong>Baking Time:</strong> 45–55 minutes</p>
+    <p><strong>Cooling Time:</strong> At least 1 hour before slicing</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>For the Apple Filling:</h4>
+      <ul>
+        <li>6–7 medium Granny Smith apples (1.2kg / 2.5 lbs), peeled and sliced</li>
+        <li>½ cup (100g) brown sugar</li>
+        <li>2 tbsp white sugar</li>
+        <li>1 ½ tsp cinnamon</li>
+        <li>¼ tsp nutmeg</li>
+        <li>1 tbsp lemon juice</li>
+        <li>2 tbsp all-purpose flour</li>
+        <li>1 tsp vanilla extract</li>
+        <li>Pinch of salt</li>
+      </ul>
+
+      <h4>For the Pie Crust:</h4>
+      <ul>
+        <li>1 9-inch pie crust, chilled and ready</li>
+        <li>Optional: blind-bake at 190°C / 375°F for 8–10 min</li>
+      </ul>
+
+      <h4>For the Crumble Topping:</h4>
+      <ul>
+        <li>¾ cup (90g) all-purpose flour</li>
+        <li>½ cup (100g) brown sugar</li>
+        <li>½ tsp cinnamon</li>
+        <li>⅓ cup (75g) unsalted butter, cold and cubed</li>
+        <li>½ cup (50g) rolled oats</li>
+        <li>Optional: ¼ cup chopped walnuts or pecans</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Method</h3>
+
+      <p><strong>Step 1: Prep the Apple Filling</strong></p>
+      <ol>
+        <li>Peel, core, and thinly slice the apples.</li>
+        <li>Toss in a large bowl with sugars, cinnamon, nutmeg, lemon juice, flour, vanilla, and salt.</li>
+        <li>Let sit for 10–15 minutes to draw out juices.</li>
+      </ol>
+
+      <p><strong>Step 2: Make the Crumble</strong></p>
+      <ol>
+        <li>In a medium bowl, mix flour, brown sugar, and cinnamon.</li>
+        <li>Cut in the cold butter until the mixture looks like coarse crumbs.</li>
+        <li>Stir in oats and nuts if using. Chill if your kitchen is warm.</li>
+      </ol>
+
+      <p><strong>Step 3: Assemble the Pie</strong></p>
+      <ol>
+        <li>Preheat oven to 190°C / 375°F.</li>
+        <li>Place the crust in your pie dish, fluting the edges if desired.</li>
+        <li>Fill with the apple mixture (don’t add all the juices).</li>
+        <li>Top with crumble, pressing lightly so it sticks.</li>
+      </ol>
+
+      <p><strong>Step 4: Bake</strong></p>
+      <ol>
+        <li>Bake for 45–55 minutes until golden brown and bubbling.</li>
+        <li>If the crust or topping browns too fast, cover loosely with foil.</li>
+        <li>Cool for at least 1 hour before slicing.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Fresh-baked comfort in every bite</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cream Cheese Cinnamon Rolls - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Cream Cheese Cinnamon Rolls</h2>
+
+    <img src="{{ url_for('static', filename='images/cinnamon-rolls.jpeg') }}" alt="Cream Cheese Cinnamon Rolls" class="recipe-image">
+
+    <p>
+      These cream cheese cinnamon rolls strike the perfect balance between rich, tender dough and
+      a swirl of sweet cinnamon sugar, finished off with a luscious cream cheese frosting
+      that clings to every soft, warm layer. Getting these rolls right is all about paying
+      attention to the dough texture — smooth, slightly tacky, never dry — and letting it rise
+      patiently until fully doubled. Spreading the filling evenly and rolling with a steady
+      hand guarantees those neat, bakery-style spirals. The frosting ties everything together
+      with a subtle tang that cuts the sweetness beautifully. If you ever want to adapt this
+      recipe for vegan, gluten-free, or healthier needs, our AI chatbot can instantly suggest
+      substitutions for every ingredient and guide you through adjustments without losing
+      the essence of this treat. Don't hesitate to ask about swaps, from non-dairy cream cheese
+      to whole-wheat flour blends, to keep your rolls just as delightful while meeting your
+      dietary goals.
+    </p>
+
+    <p>
+      <strong>Serving Size:</strong> Makes 12 rolls<br>
+      <strong>Baking Time:</strong> 20–25 minutes<br>
+      <strong>Temperature:</strong> 175°C (350°F)<br>
+      <strong>Cooling Time:</strong> 10–15 minutes before frosting
+    </p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>Dough:</h4>
+      <ul>
+        <li>¾ cup (180ml) whole milk, warm (~40°C or 105°F)</li>
+        <li>2 ¼ tsp (1 packet) active dry yeast</li>
+        <li>¼ cup (50g) granulated sugar</li>
+        <li>2 large eggs, room temp</li>
+        <li>¼ cup (60g) unsalted butter, melted</li>
+        <li>3 ¾ cups (470g) all-purpose flour (plus extra if needed)</li>
+        <li>¾ tsp salt</li>
+      </ul>
+
+      <h4>Filling:</h4>
+      <ul>
+        <li>⅔ cup (130g) brown sugar (light or dark)</li>
+        <li>1 tbsp cinnamon</li>
+        <li>¼ cup (60g) unsalted butter, softened</li>
+        <li>Optional: pinch of nutmeg or splash of vanilla</li>
+      </ul>
+
+      <h4>Cream Cheese Frosting:</h4>
+      <ul>
+        <li>115g (½ cup) cream cheese, room temp</li>
+        <li>¼ cup (60g) unsalted butter, room temp</li>
+        <li>1 ½ cups (180g) powdered sugar, sifted</li>
+        <li>1 tsp vanilla extract</li>
+        <li>Pinch of salt</li>
+        <li>Optional: splash of milk or cream to thin</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step</h3>
+
+      <p><strong>Step 1: Make the Dough</strong></p>
+      <ol>
+        <li>In a large bowl, combine warm milk, sugar, and yeast. Let sit 5–10 minutes until frothy.</li>
+        <li>Add eggs, melted butter, and salt. Mix gently.</li>
+        <li>Add flour gradually. Mix until soft dough forms.</li>
+        <li>Knead 5–8 minutes until smooth and slightly tacky.</li>
+        <li>Transfer to a greased bowl, cover, and rise 1.5–2 hours until doubled in size.</li>
+      </ol>
+
+      <p><strong>Step 2: Fill & Roll</strong></p>
+      <ol>
+        <li>Roll dough into a 16x12 inch rectangle.</li>
+        <li>Spread softened butter over the dough.</li>
+        <li>Mix brown sugar and cinnamon, then sprinkle on top.</li>
+        <li>Roll tightly from the long side into a log.</li>
+        <li>Slice into 12 even pieces.</li>
+      </ol>
+
+      <p><strong>Step 3: Second Rise</strong></p>
+      <ol>
+        <li>Arrange rolls in a buttered 9x13 inch baking dish.</li>
+        <li>Cover loosely and rise 30–45 minutes until puffy.</li>
+      </ol>
+
+      <p><strong>Step 4: Bake & Frost</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C (350°F).</li>
+        <li>Bake 20–25 minutes until golden and set in the center.</li>
+        <li>Cool for 10–15 minutes before spreading cream cheese frosting generously over the rolls.</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>

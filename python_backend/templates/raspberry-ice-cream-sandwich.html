@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Raspberry Ice Cream Sandwich - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Raspberry Ice Cream Sandwich</h2>
+
+    <img src="{{ url_for('static', filename='images/raspberry-ice-cream-sandwich.jpeg') }}" alt="Raspberry Ice Cream Sandwich" class="recipe-image">
+
+    <p>
+      There’s something quietly brilliant about a homemade raspberry ice cream sandwich. It’s not just 
+      the contrast between creamy and chewy or the sweet and tart — it’s the way each bite feels like 
+      summer wrapped between two cookies. You don’t need professional gear or fancy ingredients. What 
+      you need is a little patience, quality vanilla, ripe raspberries, and a cookie base that knows 
+      how to hold everything together without falling apart. The real trick? Letting the cookies cool 
+      completely before sandwiching, and freezing the assembled treats just long enough to set — but 
+      not so long they become rock hard. This recipe walks that line perfectly.
+    </p>
+    <p>
+      If you’re looking for a version that’s vegan, gluten-free, or a bit healthier, you’re in luck — 
+      we’ve built an AI chatbot right into our site that can help you substitute ingredients or generate 
+      an entirely new version to match your dietary needs. Try it out and make these sandwiches your own. 
+      Whether you want to swap the cream for coconut milk, or go sugar-free, it’s ready to guide you through it.
+    </p>
+
+    <p><strong>Serving Size:</strong> Makes 5–6 sandwiches (10–12 cookies)</p>
+    <p><strong>Baking Time:</strong> 8–10 minutes</p>
+    <p><strong>Oven Temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Cooling Time:</strong> At least 30 minutes for cookies, 6+ hours freeze time for ice cream</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>For the Oat Cookie Base (makes 10–12 cookies):</h4>
+      <ul>
+        <li>1 cup (90g) rolled oats</li>
+        <li>¾ cup (95g) all-purpose flour</li>
+        <li>½ tsp baking soda</li>
+        <li>½ tsp salt</li>
+        <li>½ cup (115g) soft butter or coconut oil</li>
+        <li>½ cup (100g) brown sugar</li>
+        <li>1 egg</li>
+        <li>1 tsp vanilla extract</li>
+        <li>Optional: ½ tsp cinnamon</li>
+      </ul>
+
+      <h4>For the Raspberry Compote:</h4>
+      <ul>
+        <li>1 cup raspberries (fresh or frozen)</li>
+        <li>1–2 tbsp sugar</li>
+        <li>1 tsp lemon juice</li>
+        <li>Optional: pinch of salt or vanilla</li>
+      </ul>
+
+      <h4>For the No-Churn Vanilla Ice Cream:</h4>
+      <ul>
+        <li>1½ cups (360ml) cold heavy cream</li>
+        <li>½ can (200g) sweetened condensed milk</li>
+        <li>1½ tsp vanilla extract (or ½ tsp vanilla bean paste)</li>
+        <li>Optional: pinch of salt</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Method</h3>
+
+      <p><strong>1. Make the Oat Cookies:</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F. Line tray with baking paper.</li>
+        <li>Cream butter and sugar until fluffy. Add egg and vanilla.</li>
+        <li>Add oats, flour, baking soda, salt. Stir until a soft dough forms.</li>
+        <li>Scoop ~1½ tbsp dough balls, flatten slightly.</li>
+        <li>Bake 8–10 mins until golden edges and soft centers.</li>
+        <li>Cool completely — they’ll firm up.</li>
+      </ol>
+
+      <p><strong>2. Make Raspberry Compote:</strong></p>
+      <ol>
+        <li>Simmer raspberries, sugar, lemon juice for 6–8 mins in a small pot.</li>
+        <li>Cool fully. It will thicken as it chills.</li>
+        <li>Refrigerate until needed.</li>
+      </ol>
+
+      <p><strong>3. Make No-Churn Vanilla Ice Cream:</strong></p>
+      <ol>
+        <li>Whip cold cream to soft peaks.</li>
+        <li>In another bowl, mix condensed milk and vanilla.</li>
+        <li>Fold whipped cream into milk mix gently (don’t deflate!).</li>
+        <li>Pour into a loaf pan and swirl in raspberry compote (optional).</li>
+        <li>Freeze for 6+ hours or overnight.</li>
+      </ol>
+
+      <p><strong>4. Assemble the Sandwiches:</strong></p>
+      <ol>
+        <li>Scoop thick ice cream onto one oat cookie.</li>
+        <li>Top with a spoonful of raspberry compote.</li>
+        <li>Place another cookie on top and gently press.</li>
+        <li>Freeze sandwiches 15–30 minutes before eating.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Berry dreamy, creamy, and chewy!</p>
+  </footer>
+</body>
+</html>

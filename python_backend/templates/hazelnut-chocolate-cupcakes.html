@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hazelnut Chocolate Cupcakes - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Hazelnut Chocolate Cupcakes</h2>
+
+    <img src="{{ url_for('static', filename='images/hazelnut-chocolate-cupcakes.jpeg') }}" alt="Hazelnut Chocolate Cupcakes" class="recipe-image">
+
+    <p>
+      These hazelnut chocolate cupcakes are the kind of treat that makes you pause mid-bite and smile. 
+      The deep cocoa richness pairs perfectly with the nutty crunch of toasted hazelnuts, 
+      and the soft crumb stays moist thanks to a clever mix of oil, hot coffee, and milk. 
+      It’s a deceptively simple recipe — but nailing the texture depends on not overmixing your batter, 
+      and keeping a close eye near the end of the bake so you don’t dry them out. 
+      The frosting brings everything together with a silky chocolate hazelnut blend that’s rich but not overpowering.
+    </p>
+    <p>
+      Whether you're baking for a special occasion or just a quiet evening in, 
+      these cupcakes deliver a luxurious, homemade feel without any hassle. 
+      And if you’re working with dietary restrictions, no worries — 
+      our built-in AI chatbot can help you instantly adapt this recipe. 
+      It’ll suggest gluten-free flour swaps, vegan alternatives for the egg and dairy, 
+      or even lower-sugar options that still taste amazing. Just ask.
+    </p>
+
+    <p><strong>Serving size:</strong> Makes 10–12 cupcakes</p>
+    <p><strong>Bake time:</strong> 18–22 minutes at 175°C / 350°F</p>
+    <p><strong>Cooling time:</strong> Allow to cool completely before frosting</p>
+
+    <section class="ingredients">
+      <h3>Cupcake Ingredients</h3>
+      <ul>
+        <li>¾ cup (95g) all-purpose flour</li>
+        <li>¼ cup (25g) unsweetened cocoa powder (Dutch process)</li>
+        <li>½ tsp baking soda</li>
+        <li>¼ tsp baking powder</li>
+        <li>¼ tsp salt</li>
+        <li>½ cup (120ml) whole milk (or plain yogurt)</li>
+        <li>½ tsp vanilla extract</li>
+        <li>½ cup (100g) granulated sugar</li>
+        <li>¼ cup (50g) brown sugar</li>
+        <li>⅓ cup (80ml) vegetable oil</li>
+        <li>1 large egg</li>
+        <li>½ cup (120ml) hot brewed coffee or hot water</li>
+        <li>⅓ cup (40g) finely chopped toasted hazelnuts</li>
+        <li><em>Optional:</em> ¼ cup chopped dark chocolate chunks or chips</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F. Line cupcake tray with 10–12 liners.</li>
+        <li>Sift together flour, cocoa, baking soda, baking powder, salt. Stir in chopped hazelnuts.</li>
+        <li>In another bowl, whisk together milk, vanilla, egg, both sugars, and oil.</li>
+        <li>Stir in hot coffee (or hot water). Batter will be thin — that's perfect.</li>
+        <li>Pour wet into dry and mix just until smooth. Fold in chocolate chunks if using.</li>
+        <li>Fill liners ¾ full. Bake for 18–22 minutes until a skewer comes out with moist crumbs.</li>
+        <li>Cool completely before frosting.</li>
+      </ol>
+    </section>
+
+    <section class="frosting">
+      <h3>Hazelnut Chocolate Frosting</h3>
+      <ul>
+        <li>½ cup (115g) unsalted butter, softened</li>
+        <li>⅓ cup (90g) chocolate hazelnut spread (like Nutella)</li>
+        <li>1¼ cups (150g) powdered sugar</li>
+        <li>2 tbsp cocoa powder (optional)</li>
+        <li>2 tbsp heavy cream or milk</li>
+        <li>Pinch of salt</li>
+        <li>½ tsp vanilla extract</li>
+      </ul>
+
+      <p><strong>Method:</strong></p>
+      <ol>
+        <li>Beat butter until light and fluffy (2–3 minutes).</li>
+        <li>Add Nutella and beat again until smooth.</li>
+        <li>Sift in powdered sugar and cocoa. Beat until creamy.</li>
+        <li>Add cream, vanilla, and salt. Whip until fluffy and pipeable.</li>
+        <li><em>Optional:</em> Add melted dark chocolate or espresso for deeper flavor.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Soft, rich, and nutty — a chocolate dream come true</p>
+  </footer>
+</body>
+</html>

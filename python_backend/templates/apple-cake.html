@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple Cake - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Apple Cake</h2>
+
+    <img src="{{ url_for('static', filename='images/apple-cake.jpeg') }}" alt="Freshly baked apple cake" class="recipe-image">
+
+    <p>
+      Apple cake is one of those cozy, familiar desserts that feels like home in every bite.
+      It’s tender, moist, and loaded with juicy apple pieces that almost melt into the soft crumb.
+      The trick to nailing this recipe is using crisp, tart apples like Granny Smiths or Pink Ladies —
+      they hold their shape and give a perfect balance to the sweetness.
+      Don’t skip the cinnamon, either. It adds warmth that transforms simple ingredients into something special.
+    </p>
+    <p>
+      If you're trying to adjust the recipe for dietary needs, you're in good hands — we’ve built an AI chatbot 
+      right into our website that can help you create a vegan, gluten-free, or lower-sugar version of this recipe 
+      in seconds. It can also suggest simple swaps if you're out of certain ingredients. Just click the chatbot icon 
+      on the corner and start typing — it’s that easy.
+    </p>
+
+    <p><strong>Serving Size:</strong> 9 slices</p>
+    <p><strong>Baking Time:</strong> 28–35 minutes</p>
+    <p><strong>Oven Temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Cooling Time:</strong> 10 minutes in pan before transferring to wire rack</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>For the Cake:</h4>
+      <ul>
+        <li>2 cups (200g) oat flour</li>
+        <li>1 ½ tsp baking powder</li>
+        <li>½ tsp baking soda</li>
+        <li>½ tsp salt</li>
+        <li>2 tsp ground cinnamon</li>
+        <li>¼ tsp nutmeg (optional)</li>
+        <li>½ cup (120ml) neutral oil (sunflower or light olive oil)</li>
+        <li>½ cup (100g) brown sugar</li>
+        <li>2 large eggs, room temp</li>
+        <li>½ cup (120g) Greek yogurt or thick plain yogurt</li>
+        <li>1 tsp vanilla extract</li>
+        <li>2 medium apples, peeled and cubed (~1½ cups)</li>
+      </ul>
+
+      <h4>Optional Cinnamon Sugar Topping:</h4>
+      <ul>
+        <li>1 tbsp sugar + ½ tsp cinnamon (mixed)</li>
+        <li>Sprinkle on top before baking for a sweet crust</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Method</h3>
+
+      <p><strong>Step 1: Prep</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F.</li>
+        <li>Grease and line an 8x8 inch or round cake pan with parchment paper.</li>
+      </ol>
+
+      <p><strong>Step 2: Mix Batter</strong></p>
+      <ol>
+        <li>In one bowl, whisk: oat flour, baking powder, baking soda, salt, cinnamon, nutmeg.</li>
+        <li>In another large bowl, whisk oil and brown sugar until blended.</li>
+        <li>Add eggs one at a time. Stir in yogurt and vanilla.</li>
+        <li>Fold dry ingredients into wet — don’t overmix.</li>
+        <li>Gently fold in apple cubes.</li>
+      </ol>
+
+      <p><strong>Step 3: Bake</strong></p>
+      <ol>
+        <li>Pour batter into prepared pan and spread evenly.</li>
+        <li>Optional: sprinkle with cinnamon sugar topping.</li>
+        <li>Bake 28–35 minutes, until golden and a toothpick comes out clean or with moist crumbs.</li>
+        <li>Cool in pan for 10 minutes, then transfer to wire rack.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Warm hugs in cake form — enjoy with tea or coffee</p>
+  </footer>
+</body>
+</html>

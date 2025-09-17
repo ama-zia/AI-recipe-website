@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pumpkin Chai Cookies - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Pumpkin Chai Cookies</h2>
+
+    <img src="{{ url_for('static', filename='images/pumpkin-chai-cookies.jpeg') }}" alt="Pumpkin Chai Cookies" class="recipe-image">
+
+    <p>
+      There’s something quietly confident about these Pumpkin Chai Cookies. The dough is fragrant with warming spices like cardamom and cinnamon, 
+      and the pumpkin gives them a soft, chewy center that stays tender for days. These aren’t showy cookies—they don’t need to be. 
+      They shine through texture and balance, perfect for crisp afternoons or low-key evenings. 
+    </p>
+    <p>
+      The key to mastering them lies in the browning of the butter and the resting time for the dough. 
+      Don’t rush the chill—it helps the flavors deepen and the texture firm up just enough. 
+      If you want extra chewy centers with craggy edges, be sure to gently tap the tray mid-bake. 
+      And if you’re working with dietary needs, our AI chatbot is here to help. 
+      Ask it for a vegan version, a gluten-free substitution, or a healthier tweak—we’ll make sure you’re never left out of the joy of baking. 
+    </p>
+
+    <p><strong>Serving Size:</strong> Makes 10–12 cookies</p>
+    <p><strong>Bake Time:</strong> 10–12 minutes</p>
+    <p><strong>Oven Temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Cool Time:</strong> 5 minutes on tray, then transfer to rack</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>Dry Ingredients:</h4>
+      <ul>
+        <li>1½ cups (190g) all-purpose flour</li>
+        <li>½ tsp baking soda</li>
+        <li>½ tsp salt</li>
+        <li>1 tsp cinnamon</li>
+        <li>½ tsp ginger</li>
+        <li>½ tsp cardamom</li>
+        <li>¼ tsp cloves</li>
+        <li>¼ tsp allspice</li>
+        <li>OR 1½ tsp pumpkin spice + ½ tsp chai spice blend</li>
+      </ul>
+
+      <h4>Wet Ingredients:</h4>
+      <ul>
+        <li>½ cup (115g) unsalted butter, browned</li>
+        <li>½ cup (100g) brown sugar</li>
+        <li>¼ cup (50g) white sugar</li>
+        <li>⅓ cup (80g) pumpkin puree (not too watery)</li>
+        <li>1 egg yolk</li>
+        <li>1 tsp vanilla extract</li>
+      </ul>
+
+      <h4>Spiced Sugar Coating:</h4>
+      <ul>
+        <li>2 tbsp white sugar</li>
+        <li>½ tsp cinnamon</li>
+        <li>Pinch of cardamom</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Method</h3>
+
+      <p><strong>1. Brown the Butter</strong></p>
+      <ol>
+        <li>Melt butter in a pan over medium heat.</li>
+        <li>Let it bubble and foam until golden brown and nutty-smelling.</li>
+        <li>Remove from heat and let cool slightly.</li>
+      </ol>
+
+      <p><strong>2. Mix the Dough</strong></p>
+      <ol>
+        <li>In a bowl, whisk browned butter with both sugars.</li>
+        <li>Stir in pumpkin puree, egg yolk, and vanilla.</li>
+        <li>In another bowl, mix all dry ingredients together.</li>
+        <li>Fold dry into wet with a spatula until just combined.</li>
+        <li>Chill dough for 30–60 minutes (important for chewiness).</li>
+      </ol>
+
+      <p><strong>3. Shape and Coat</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F.</li>
+        <li>Mix spiced sugar in a small bowl.</li>
+        <li>Scoop chilled dough into 1.5 tbsp balls, roll in sugar.</li>
+        <li>Place on parchment-lined tray, spaced apart.</li>
+      </ol>
+
+      <p><strong>4. Bake!</strong></p>
+      <ol>
+        <li>Bake for 10–12 minutes until edges are set and tops are crackly.</li>
+        <li>At 8-minute mark, bang tray gently for chewier centers.</li>
+        <li>Cool on tray for 5 minutes, then transfer to a rack.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Warm, chewy, and spiced to perfection</p>
+  </footer>
+</body>
+</html>

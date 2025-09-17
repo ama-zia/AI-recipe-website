@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lemon Bars - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Lemon Bars</h2>
+    
+    <img src="{{ url_for('static', filename='images/lemon-bars.jpeg') }}" alt="Lemon Bars" class="recipe-image">
+
+    <p>
+      Lemon bars have a way of stealing the show at any gathering — they balance tangy citrus
+      with rich, buttery crust in a way that feels both indulgent and refreshing. The key to
+      mastering them lies in timing and texture. You want that crust firm enough to hold the
+      luscious filling without becoming dry, and a lemon layer that’s just set, never rubbery.
+      Don’t be tempted to crank up the heat — a slow bake keeps the eggs tender and the flavor
+      bright. Zesting fresh lemons makes a world of difference, and using parchment helps ensure
+      clean removal from the pan. Whether you like them mouth-puckeringly tart or just sweet
+      enough, lemon bars can be easily adjusted to taste.
+    </p>
+    <p>
+      On this page, you'll also find a smart feature: our built-in AI chatbot. If you're vegan,
+      gluten-intolerant, or simply seeking a lighter alternative, the chatbot will offer you
+      accurate substitutions for every ingredient — like how to swap eggs for aquafaba or butter
+      for coconut oil — without compromising taste or texture. Just ask, and you’ll get a version
+      tailored to your needs.
+    </p>
+
+    <p><strong>Serving size:</strong> 12 bars</p>
+    <p><strong>Bake time:</strong> 15–18 minutes (crust) + 20–25 minutes (filling)</p>
+    <p><strong>Temperature:</strong> 175°C / 350°F (crust), 160°C / 325°F (filling)</p>
+    <p><strong>Cooling time:</strong> Cool at room temp, then chill for 2 hours</p>
+
+    <section class="ingredients">
+      <h3>Shortbread Crust:</h3>
+      <ul>
+        <li>1 cup (125g) all-purpose flour</li>
+        <li>¼ cup (30g) powdered sugar</li>
+        <li>½ cup (115g) cold unsalted butter, cubed</li>
+        <li>¼ tsp salt</li>
+        <li>Zest of ½ lemon</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Crust Instructions</h3>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F.</li>
+        <li>Mix flour, powdered sugar, salt, and lemon zest in a bowl.</li>
+        <li>Cut in cold butter with fork or fingers until crumbly.</li>
+        <li>Press evenly into a parchment-lined baking tin.</li>
+        <li>Bake for 15–18 minutes until edges are lightly golden.</li>
+      </ol>
+    </section>
+
+    <section class="ingredients">
+      <h3>Lemon Filling:</h3>
+      <ul>
+        <li>1 cup (200g) granulated sugar</li>
+        <li>2 tbsp all-purpose flour</li>
+        <li>3 large eggs</li>
+        <li>½ cup (120ml) fresh lemon juice (2–3 lemons)</li>
+        <li>Zest of 1 lemon</li>
+        <li>2 tbsp (30g) melted unsalted butter</li>
+        <li>Pinch of salt</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Filling & Baking</h3>
+      <ol>
+        <li>Whisk sugar and flour in a bowl to prevent clumps.</li>
+        <li>Add eggs, lemon juice, zest, melted butter, and salt. Whisk until smooth (don’t overwhisk).</li>
+        <li>Pour over warm baked crust.</li>
+        <li>Bake at 160°C / 325°F for 20–25 minutes until center is just set with a slight jiggle.</li>
+        <li>Cool completely at room temperature, then refrigerate for at least 2 hours.</li>
+      </ol>
+    </section>
+
+    <section class="instructions">
+      <h3>To Serve</h3>
+      <ol>
+        <li>Dust generously with powdered sugar before serving.</li>
+        <li>For neat slices, wipe your knife clean between each cut.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Bright, tangy, and buttery — the ultimate lemony treat</p>
+  </footer>
+</body>
+</html>

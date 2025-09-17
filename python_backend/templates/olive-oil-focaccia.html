@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Olive Oil Focaccia - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Sweet Delights</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Olive Oil Focaccia</h2>
+
+    <img src="{{ url_for('static', filename='images/focaccia.jpeg') }}" alt="Olive Oil Focaccia" class="recipe-image">
+
+    <p>
+      Olive oil focaccia is one of those humble yet magical bakes that delivers far more than the sum of its parts. 
+      With its crisp golden crust, airy crumb, and rich olive oil flavor, it’s a bread that feels both rustic and refined. 
+      Whether served warm with dips, layered into a sandwich, or enjoyed as is, it never fails to impress. 
+      The key to nailing focaccia lies in letting the dough ferment slowly overnight — that long rest builds the signature 
+      bubbles and softness. Don’t skimp on the olive oil either; it’s not just for taste but also helps develop the 
+      beautiful crust and prevents sticking. Our AI chatbot is also here to help if you’re looking for substitutions — 
+      whether you're vegan, gluten-free, or just need to work with what’s in your pantry. Ask it for a healthy swap or 
+      alternative and it'll guide you instantly.
+    </p>
+
+    <p><strong>Serving Size:</strong> Makes one 9x13" tray (serves 6–8)</p>
+    <p><strong>Baking Temperature:</strong> 220°C / 425°F</p>
+    <p><strong>Bake Time:</strong> 22–28 minutes</p>
+    <p><strong>Cooling Time:</strong> 10–15 minutes</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <h4>Dough:</h4>
+      <ul>
+        <li>500g (4 cups) bread flour (or all-purpose)</li>
+        <li>10g (2 tsp) fine sea salt</li>
+        <li>2 tsp sugar or honey</li>
+        <li>2 tsp instant yeast (or 7g active dry)</li>
+        <li>400ml (1⅔ cups) warm water (~105°F / 40°C)</li>
+        <li>3 tbsp extra virgin olive oil (plus more for pan and topping)</li>
+      </ul>
+
+      <h4>Toppings (choose or mix):</h4>
+      <ul>
+        <li>Flaky salt</li>
+        <li>Fresh rosemary</li>
+        <li>Cherry tomatoes (halved)</li>
+        <li>Sliced garlic</li>
+        <li>Caramelized onions</li>
+        <li>Olives</li>
+        <li>Chili flakes</li>
+        <li>Fresh thyme, oregano, or basil (after baking)</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Dough Instructions</h3>
+      <ol>
+        <li><strong>Mix the Dough:</strong> In a large bowl, stir together flour, salt, sugar, and yeast. Add warm water and olive oil. Mix into a sticky dough (no kneading needed).</li>
+        <li><strong>First Rise (Bulk):</strong> Cover and let rise at room temp for 8–12 hours (overnight is great). Dough should triple and look bubbly.</li>
+        <li><strong>Pan & Proof:</strong> Generously oil a 9x13" pan (2–3 tbsp). Pour in the jiggly dough and gently stretch it to fit. Let rise 2–4 hours until very puffy.</li>
+      </ol>
+
+      <h3>Topping & Baking</h3>
+      <ol start="4">
+        <li><strong>Dimple & Top:</strong> Preheat oven to 220°C / 425°F. Drizzle 2–3 tbsp olive oil over dough. Use oiled fingers to dimple deeply. Add flaky salt, rosemary, and any toppings.</li>
+        <li><strong>Bake:</strong> Bake 22–28 mins until golden on top and crisp underneath. Cool 10–15 minutes before slicing.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Perfect for dipping, sandwiches, or just eating warm with olive oil. Simple and satisfying.</p>
+  </footer>
+</body>
+</html>

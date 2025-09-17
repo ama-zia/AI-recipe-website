@@ -1,0 +1,446 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FDF9F4; /* warm ivory */
+  color: #2C1B10; /* dark cocoa */
+  line-height: 1.6;
+}
+
+/* Header & Nav */
+header {
+  background: #F2D5A2; /* lighter gold */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #E6C79C; /* soft golden beige */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #432714; /* dark cocoa */
+  font-weight: 800;
+  font-size: 2em;
+}
+
+nav a:hover {
+  color: #B88B4A; /* warm hover tone */
+}
+
+/* Homepage Hero */
+.homepagepicture {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.homepagepicture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.homepagepicture h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5em;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #C49A6C; /* soft caramel */
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #B88B4A; /* toasted caramel */
+}
+
+/* Home */
+.home {
+  padding: 40px;
+  text-align: center;
+}
+
+.home h2 {
+  color: #C49A6C; /* soft brown-gold */
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Recipe List */
+.recipes {
+  padding: 30px;
+}
+
+.recipe-card,
+.recipe-card_one {
+  background: #FFFFFF; /* clean white card */
+  border: 2px solid #F1E0C3; /* soft gold-beige */
+  border-radius: 15px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(204, 153, 102, 0.15); /* subtle warm shadow */
+}
+
+.recipe-card img {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.recipe-info h3 {
+  margin-bottom: 10px;
+  color: #C49A6C;
+}
+
+/* Recipe Detail */
+.recipe-detail {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.recipe-detail h2 {
+  text-align: center;
+  color: #C49A6C;
+  margin-bottom: 30px;
+}
+
+.ingredients ul,
+.steps ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #C49A6C;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #F2D5A2; /* lighter gold */
+  margin-top: 40px;
+  color: #2C1B10;
+  font-size: 0.9em;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  justify-items: center;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background-color: #fffaf6;
+  border: 2px solid #F1E0C3;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(204, 153, 102, 0.15);
+  transition: transform 0.2s;
+  width: 100%;
+  max-width: 200px;
+}
+
+.category-card:hover {
+  transform: scale(1.03);
+}
+
+.category-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.category-card span {
+  padding: 10px;
+  font-weight: bold;
+  color: #C49A6C;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #F1E0C3;
+  border-radius: 12px;
+  background-color: #fffaf6;
+  box-shadow: 0 4px 10px rgba(204, 153, 102, 0.15);
+}
+
+#chat-box {
+  height: 300px;
+  overflow-y: auto;
+  background: #fdf6ef;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f0e2cd;
+}
+
+.user, .bot {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.user {
+  background-color: #d3e5ff;
+  text-align: right;
+}
+
+.bot {
+  background-color: #ffe3ec;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #C49A6C;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #B88B4A;
+}
+
+.recipe-image {
+  text-align: center;
+}
+.recipe-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipes section {
+  margin-top: 100px;
+}
+
+.recipe-detail p {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+form a {
+  color: #C49A6C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+form a:hover {
+  color: #B88B4A;
+}
+
+
+/* ==== Chatbot Enhancements ==== */
+.chatbot-header .assistant-title {
+  font-size: 3rem;
+  color: #432714;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+}
+
+/* === Enhanced AI Baking Assistant Layout === */
+
+.assistant-intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #fff9f4, #fef1e6);
+  padding: 30px 20px;
+  border-top: 2px solid #f1e0c3;
+  border-bottom: 2px solid #f1e0c3;
+}
+
+
+.assistant-avatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #e6c79c;
+  margin: 20px;
+  box-shadow: 0 6px 18px rgba(200, 150, 100, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.assistant-avatar img:hover {
+  transform: scale(1.05);
+}
+
+.assistant-description {
+  max-width: 640px;
+  color: #2C1B10;
+  font-size: 1em;
+  padding: 10px;
+}
+
+
+.assistant-description h2 {
+  font-size: 2.4em;
+  color: #C49A6C;
+  margin-bottom: 15px;
+}
+
+.assistant-description p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.assistant-description ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.assistant-description ul li {
+  margin-bottom: 10px;
+  color: #6a4c30;
+}
+
+/* Chatbot Wrapper with Side Images */
+.chatbot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* ensures same vertical alignment */
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.side-image {
+  width: 220px;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  opacity: 0.95;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+
+.side-image.left {
+  order: 1;
+}
+
+.enhanced-chat {
+  order: 2;
+  flex-grow: 1;
+  min-width: 320px;
+  max-width: 600px;
+  background: linear-gradient(to bottom right, #fffaf6, #fdf2e9);
+  border: 2px solid #f1e0c3;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 6px 24px rgba(204, 153, 102, 0.2);
+  animation: fadeInUp 0.5s ease-in-out;
+}
+
+.side-image.right {
+  order: 3;
+}
+
+/* Chat Box and Input Styling */
+#chat-box {
+  background: #fdf6ef;
+  height: 350px;
+  overflow-y: auto;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 1rem;
+  border: 1px solid #f0e2cd;
+  margin-bottom: 20px;
+}
+
+.chat-input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input-area input[type="text"] {
+  flex-grow: 1;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.chat-input-area button {
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #C49A6C;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.chat-input-area button:hover {
+  background-color: #B88B4A;
+}
+
+/* Subtle fade-in animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

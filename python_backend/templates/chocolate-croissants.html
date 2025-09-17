@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chocolate Croissants - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Sweet Delights</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Chocolate Croissants (Pain au Chocolat)</h2>
+
+    <img src="{{ url_for('static', filename='images/chocolate-croissants.jpeg') }}" alt="Chocolate Croissants" class="recipe-image">
+
+    <p>
+      Chocolate croissants — or *pain au chocolat* — aren't just pastries, they're a weekend ritual, a buttery reward 
+      wrapped in golden layers. Perfecting them takes patience, but the payoff is worth every fold and chill. The dough 
+      should feel cool and smooth, the butter should stay firm, and the lamination process is where the magic happens. 
+      When baked right, you get that audible flake with each bite, revealing a soft center and a ribbon of dark chocolate 
+      that makes each bite melt in your mouth. Don't be discouraged by the steps — it’s about rhythm, not perfection. 
+      If you're unsure about any ingredient — whether you're avoiding gluten, dairy, or want a healthier take — our built-in 
+      AI chatbot is here to help. It can instantly suggest vegan, gluten-free, or nutritious alternatives without changing 
+      the core experience. Consider it your smart baking buddy in the kitchen.
+    </p>
+
+    <p><strong>Yield:</strong> 10–12 croissants</p>
+    <p><strong>Bake Time:</strong> 18–22 minutes</p>
+    <p><strong>Oven Temperature:</strong> 200°C (390°F)</p>
+    <p><strong>Cooling Time:</strong> 10–15 minutes before serving</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <h4>Dough:</h4>
+      <ul>
+        <li>4 cups (500g) bread flour</li>
+        <li>¼ cup (50g) sugar</li>
+        <li>1 tbsp instant yeast</li>
+        <li>1½ tsp salt</li>
+        <li>1¼ cups (300ml) cold whole milk</li>
+        <li>2 tbsp (30g) unsalted butter, melted</li>
+      </ul>
+
+      <h4>Laminating:</h4>
+      <ul>
+        <li>280g (10 oz) cold unsalted butter (European style recommended)</li>
+      </ul>
+
+      <h4>Filling:</h4>
+      <ul>
+        <li>100g dark chocolate (60–70% cocoa), sticks or chopped bar</li>
+      </ul>
+
+      <h4>Egg Wash:</h4>
+      <ul>
+        <li>1 egg + 1 tbsp milk, whisked</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Step-by-Step Instructions</h3>
+      <ol>
+        <li><strong>Make the Dough (Night Before):</strong> Mix flour, sugar, yeast, and salt. Add cold milk and melted butter. Knead until smooth (5–6 mins). Flatten, wrap, and chill overnight or at least 2 hours.</li>
+        <li><strong>Prepare Butter Block:</strong> Pound cold butter between parchment sheets into a 6x6 inch (15x15 cm) square. Chill until firm but pliable.</li>
+        <li><strong>Laminate:</strong> Roll dough into a 12x6 inch (30x15 cm) rectangle. Place butter in the center and fold like a letter. Roll out, fold again — repeat for 3 total folds, chilling 30 mins between. Rest 1 hour after final fold.</li>
+        <li><strong>Shape:</strong> Roll dough into 8x20 inch rectangle. Cut into 4x3 inch rectangles. Place chocolate in center, fold, and roll into logs.</li>
+        <li><strong>Proof:</strong> Place on tray, cover lightly, and let rise for 1.5–2 hours in a warm spot until puffed and jiggly.</li>
+        <li><strong>Bake:</strong> Preheat oven to 200°C (390°F). Brush with egg wash. Bake for 18–22 minutes until golden brown.</li>
+      </ol>
+    </section>
+
+    <section class="tips">
+      <h3>Tips for Success</h3>
+      <ul>
+        <li><strong>Use European-style butter:</strong> Higher fat means flakier pastry and better flavor.</li>
+        <li><strong>Keep dough cold:</strong> Prevents butter from melting too early.</li>
+        <li><strong>Don’t rush the proofing:</strong> Fully proofed croissants will have better rise and airiness.</li>
+        <li><strong>Chocolate batons:</strong> Ideal for even chocolate distribution, but chopped bar also works.</li>
+      </ul>
+    </section>
+
+    <section class="add-ons">
+      <h3>Optional Add-ons</h3>
+      <ul>
+        <li>Sprinkle a bit of orange zest or cinnamon inside with the chocolate.</li>
+        <li>Dip cooled croissants in melted chocolate for an extra treat.</li>
+        <li>Dust with powdered sugar before serving.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Best enjoyed fresh and warm — or reheated slightly for that perfect flaky bite!</p>
+  </footer>
+</body>
+</html>

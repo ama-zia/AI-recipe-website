@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gingerbread Cookies - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Sweet Delights</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Gingerbread Cookies</h2>
+
+    <img src="{{ url_for('static', filename='images/gingerbread-cookies.jpeg') }}" alt="Gingerbread Cookies" class="recipe-image">
+
+    <p>
+      These gingerbread cookies are the kind of nostalgic treat that brings warmth to any cold day.
+      They're everything a good cookie should be: lightly crisp on the edges, soft in the middle, and full
+      of the deep, spicy notes of molasses, cinnamon, ginger, and cloves. Whether you're baking them for a
+      festive gathering, decorating them with kids, or simply making a batch to snack on throughout the week,
+      this recipe delivers consistent results. The key to acing these cookies is in the chilling and rolling —
+      don’t rush those steps. Chilled dough means clean cookie cutter shapes and even baking, while rolling to
+      just the right thickness keeps texture perfect.
+    </p>
+    <p>
+      If you're looking to adapt the recipe for a specific diet, we’ve got you covered — our built-in AI chatbot
+      can suggest vegan, gluten-free, or low-sugar ingredient swaps. Need to replace butter, molasses, or eggs?
+      Just ask the bot on this page and it’ll give you instant alternatives tailored to your dietary needs.
+    </p>
+
+    <ul class="quick-facts">
+      <li><strong>Yields:</strong> ~24 cookies</li>
+      <li><strong>Prep Time:</strong> 20 minutes</li>
+      <li><strong>Chill Time:</strong> 1–2 hours</li>
+      <li><strong>Bake Time:</strong> 8–10 minutes</li>
+      <li><strong>Oven Temperature:</strong> 175°C / 350°F</li>
+      <li><strong>Cool Time:</strong> 10–15 minutes</li>
+    </ul>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>3 cups (375g) all-purpose flour</li>
+        <li>¾ cup (150g) dark brown sugar</li>
+        <li>¾ cup (180ml) unsulphured molasses</li>
+        <li>1 large egg</li>
+        <li>½ cup (113g) unsalted butter, softened</li>
+        <li>1 tsp baking soda</li>
+        <li>½ tsp salt</li>
+        <li>1 tbsp ground ginger</li>
+        <li>1 tbsp ground cinnamon</li>
+        <li>½ tsp ground cloves</li>
+        <li>½ tsp nutmeg</li>
+        <li>Optional: ½ tsp allspice</li>
+        <li>Optional: 1 tsp vanilla extract</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <li><strong>Cream Butter and Sugar:</strong> Beat butter and brown sugar until light and fluffy (2–3 minutes).</li>
+        <li><strong>Add Wet Ingredients:</strong> Mix in egg, molasses, and vanilla if using. Beat until smooth.</li>
+        <li><strong>Add Dry Ingredients:</strong> In a separate bowl, whisk flour, baking soda, salt, and spices.
+            Gradually mix into the wet ingredients until a dough forms.</li>
+        <li><strong>Chill:</strong> Divide dough into two disks, wrap in cling film, and chill for 1–2 hours (or overnight).</li>
+      </ol>
+
+      <h3>Rolling and Baking</h3>
+      <ol start="5">
+        <li><strong>Roll and Cut:</strong> Preheat oven to 175°C / 350°F. Roll dough on floured surface to ¼ inch thick.
+            Cut into festive shapes.</li>
+        <li><strong>Bake:</strong> Place on lined tray and bake for 8–10 minutes. Cool completely before icing or decorating.</li>
+      </ol>
+    </section>
+
+    <section class="tips">
+      <h3>Tips for Success</h3>
+      <ul>
+        <li>Chill the dough well — this helps clean cuts and keeps cookies from spreading.</li>
+        <li>Use dark brown sugar and unsulphured molasses for rich flavor.</li>
+        <li>Roll evenly for consistent baking — ¼ inch is the sweet spot.</li>
+        <li>For soft cookies, bake 7–8 minutes; for crisp ones, bake closer to 10 minutes.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>These cookies are perfect for decorating with royal icing or enjoying just as they are.</p>
+  </footer>
+</body>
+</html>

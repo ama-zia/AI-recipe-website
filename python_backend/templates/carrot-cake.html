@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrot Cake with Cream Cheese Frosting - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Carrot Cake with Vanilla Cream Cheese Frosting</h2>
+
+    <img src="{{ url_for('static', filename='images/carrot-cake.jpeg') }}" alt="Carrot Cake" class="recipe-image">
+
+    <p>
+      This carrot cake has earned its place in the baking hall of fame—not just because it's incredibly moist and packed with
+      flavor, but because it's surprisingly easy to get just right. It strikes that rare balance between spice and sweetness,
+      between hearty and delicate, and it holds up whether you're baking for a crowd or treating yourself on a quiet afternoon.
+    </p>
+    <p>
+      What really makes this cake shine is the pairing of finely grated carrots, crushed pineapple, and toasted pecans, giving
+      it a complexity of texture that plays beautifully with the rich cream cheese frosting. If you're nervous about baking,
+      don't be—this one is forgiving. Focus on not overmixing the batter and allowing it to cool fully before layering and
+      frosting. The results will speak for themselves.
+    </p>
+    <p>
+      And if you’re looking for a healthier twist, gluten-free version, or need to skip the dairy altogether—our built-in AI
+      chatbot is ready to guide you through substitutions or provide a fully tailored recipe. Just click the chatbot icon and
+      ask away.
+    </p>
+
+    <p><strong>Serving Size:</strong> 10–12 slices</p>
+    <p><strong>Bake Time:</strong> 30–35 minutes</p>
+    <p><strong>Temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Cooling Time:</strong> Let cool completely before frosting (about 1 hour)</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>For the Cake:</h4>
+      <ul>
+        <li>2 cups (260g) all-purpose flour</li>
+        <li>1 ½ tsp baking soda</li>
+        <li>1 ½ tsp baking powder</li>
+        <li>½ tsp salt</li>
+        <li>1 ½ tsp cinnamon</li>
+        <li>¼ tsp nutmeg (optional)</li>
+        <li>1 cup (200g) brown sugar, packed</li>
+        <li>½ cup (100g) white sugar</li>
+        <li>1 cup (240ml) neutral oil (like canola or sunflower)</li>
+        <li>4 large eggs, room temp</li>
+        <li>1 tbsp pure vanilla extract</li>
+        <li>2 cups (200g) finely grated carrots</li>
+        <li>¾ cup (90g) toasted pecans, chopped</li>
+        <li>½ cup (120g) crushed pineapple, drained</li>
+        <li>Optional: zest of ½ orange</li>
+      </ul>
+
+      <h4>For the Intense Vanilla Cream Cheese Frosting:</h4>
+      <ul>
+        <li>225g (8 oz) cream cheese, cold</li>
+        <li>½ cup (115g) unsalted butter, room temp</li>
+        <li>2 cups (240g) powdered sugar, sifted</li>
+        <li>1 tbsp vanilla bean paste or 2 tsp vanilla extract</li>
+        <li>Pinch of salt</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Method</h3>
+
+      <p><strong>Step 1: Bake the Cake</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F. Grease and line two 8-inch round pans or one 9x13 inch.</li>
+        <li>In a large bowl, whisk flour, baking soda, baking powder, salt, cinnamon, nutmeg.</li>
+        <li>In another bowl, whisk eggs, brown sugar, white sugar, oil, and vanilla until smooth and glossy.</li>
+        <li>Fold in grated carrots, pineapple, and toasted pecans.</li>
+        <li>Gently mix wet and dry ingredients until just combined — don’t overmix.</li>
+        <li>Divide batter evenly between pans and bake for 30–35 minutes, or until a toothpick comes out clean.</li>
+        <li>Let the cakes cool fully before frosting.</li>
+      </ol>
+
+      <p><strong>Step 2: Make the Vanilla Cream Cheese Frosting</strong></p>
+      <ol>
+        <li>Beat cream cheese until smooth and creamy.</li>
+        <li>Add butter and beat until light and fluffy.</li>
+        <li>Gradually add powdered sugar, beating after each cup.</li>
+        <li>Add vanilla and a pinch of salt. Whip until fluffy.</li>
+        <li>Chill for 10–15 minutes if needed before spreading.</li>
+      </ol>
+
+      <p><strong>Step 3: Assemble</strong></p>
+      <ol>
+        <li>Place one cake layer on a plate or stand. Spread a thick layer of frosting.</li>
+        <li>Top with the second layer. Frost top and sides generously.</li>
+        <li>Decorate with chopped pecans, carrot curls, or a sprinkle of cinnamon.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with love and cupcakes.</p>
+  </footer>
+</body>
+</html>

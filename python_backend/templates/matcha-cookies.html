@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chewy Matcha Cookies - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Chewy Matcha Cookies</h2>
+
+    <img src="{{ url_for('static', filename='images/matcha-cookies.jpeg') }}" alt="Chewy Matcha Cookies" class="recipe-image">
+
+    <p>
+      There’s something quietly impressive about a cookie that blends the earthy bitterness of matcha 
+      with the soft, chewy texture of a bakery-style treat. These Chewy Matcha Cookies are exactly that — 
+      simple to make, but full of character. The key to nailing them is balance: enough matcha to shine 
+      without overpowering, just the right amount of sugar to mellow out the bite, and a buttery dough that 
+      holds its shape while still melting in your mouth. Chill your dough before baking — it makes all the 
+      difference for texture and flavor depth. And if you ever find yourself needing a healthier spin, a 
+      gluten-free version, or dairy-free swaps, our built-in AI chatbot can guide you through ingredient 
+      substitutions or generate a completely custom version that fits your dietary needs. Whether you’re 
+      baking for friends or just for yourself, this recipe is forgiving, adaptable, and seriously rewarding.
+    </p>
+
+    <p><strong>Servings:</strong> Makes ~16–18 cookies</p>
+    <p><strong>Bake Time:</strong> 9–11 minutes</p>
+    <p><strong>Oven Temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Cool Time:</strong> Let cookies cool on tray for 5 minutes before transferring</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2 cups (250g) all-purpose flour</li>
+        <li>1 tbsp ceremonial or culinary-grade matcha</li>
+        <li>½ tsp baking soda</li>
+        <li>½ tsp salt</li>
+        <li>¾ cup (170g) unsalted butter, room temp</li>
+        <li>¾ cup (150g) brown sugar, packed</li>
+        <li>¼ cup (50g) white sugar</li>
+        <li>1 large egg, room temp</li>
+        <li>2 tsp pure vanilla extract</li>
+        <li>Optional: 1 tsp vanilla bean paste</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Method</h3>
+
+      <p><strong>Step 1: Mix Dry Ingredients</strong></p>
+      <ol>
+        <li>In a bowl, whisk together flour, matcha, baking soda, and salt.</li>
+        <li>This prevents clumps and distributes matcha evenly.</li>
+      </ol>
+
+      <p><strong>Step 2: Cream Butter + Sugar</strong></p>
+      <ol>
+        <li>In a large bowl, beat butter, brown sugar, and white sugar until light and fluffy (about 2–3 minutes).</li>
+        <li>Add in the egg, vanilla extract, and paste (if using). Mix until smooth and creamy.</li>
+      </ol>
+
+      <p><strong>Step 3: Combine</strong></p>
+      <ol>
+        <li>Add dry ingredients to the wet ingredients.</li>
+        <li>Mix until just combined — don’t overmix.</li>
+        <li>Chill the dough for 30–60 minutes for best texture and flavor.</li>
+      </ol>
+
+      <p><strong>Step 4: Bake</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F.</li>
+        <li>Scoop dough into 1.5 tbsp balls and place on a parchment-lined baking tray, spaced apart.</li>
+        <li>Bake for 9–11 minutes, until edges are lightly golden and centers look slightly underbaked.</li>
+        <li>Cool on tray for 5 minutes before transferring — they’ll set with a perfect chewy center.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with care and cozy vibes.</p>
+  </footer>
+</body>
+</html>

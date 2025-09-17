@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Red Velvet Cookies - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Red Velvet Cookies</h2>
+
+    <img src="{{ url_for('static', filename='images/red-velvet-cookies.jpeg') }}" alt="Red Velvet Cookies" class="recipe-image">
+
+    <p>
+      These red velvet cookies aren’t just another version of a popular cake —
+      they’re a full-on indulgence: soft in the center, lightly crisp on the edges,
+      and rich with that signature cocoa-vanilla depth. The bold color and classic
+      cream cheese frosting make them feel bakery-worthy, yet they're easy enough
+      for a weekday bake. If you're looking to impress or simply treat yourself,
+      mastering the chill time and not overbaking are key. Letting them cool on
+      the tray helps retain that soft, dense texture. And if you're ever in doubt
+      or need a twist — like a vegan alternative, gluten-free version, or healthier
+      substitutions — we've got an AI chatbot right on this site to help. It’s trained
+      to adapt any recipe for your dietary needs, with suggestions based on what you
+      have at home or your lifestyle choices. Your perfect batch is just a tweak away.
+    </p>
+
+    <p><strong>Serving size:</strong> 10–12 cookies</p>
+    <p><strong>Baking temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Baking time:</strong> 9–11 minutes</p>
+    <p><strong>Cooling time:</strong> 5 minutes on tray, then transfer to rack</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>For the Red Velvet Cookies (makes ~10–12):</h4>
+      <ul>
+        <li>½ cup (115g) soft unsalted butter</li>
+        <li>¾ cup (150g) brown sugar</li>
+        <li>¼ cup (50g) white sugar</li>
+        <li>1 large egg</li>
+        <li>1 tsp vanilla extract</li>
+        <li>1 tbsp red food coloring (gel preferred)</li>
+        <li>1 tbsp unsweetened cocoa powder (not Dutch-processed)</li>
+        <li>1½ cups (190g) all-purpose flour</li>
+        <li>½ tsp baking soda</li>
+        <li>¼ tsp salt</li>
+        <li>Optional: ½ cup white chocolate chips or chunks</li>
+      </ul>
+
+      <h4>For the Cream Cheese Frosting:</h4>
+      <ul>
+        <li>115g (½ cup) cream cheese, softened</li>
+        <li>2 tbsp unsalted butter, softened</li>
+        <li>¾ cup (75g) powdered sugar, sifted</li>
+        <li>½ tsp vanilla extract</li>
+        <li>Pinch of salt</li>
+        <li>Optional: 1 tsp lemon zest</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Method</h3>
+
+      <p><strong>STEP 1: Make the Cookie Dough</strong></p>
+      <ol>
+        <li>Cream butter and sugars until fluffy.</li>
+        <li>Add egg, vanilla, red food coloring. Mix well.</li>
+        <li>Sift in flour, cocoa, baking soda, and salt. Mix until dough forms.</li>
+        <li>Optional: Fold in white chocolate chips.</li>
+        <li>Chill dough 30–60 mins for best texture.</li>
+      </ol>
+
+      <p><strong>STEP 2: Bake the Cookies</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F. Line baking tray.</li>
+        <li>Scoop 1.5 tbsp dough balls. Space them apart.</li>
+        <li>Bake for 9–11 mins until edges are set, centers soft.</li>
+        <li>Cool 5 mins on tray, then move to rack.</li>
+      </ol>
+
+      <p><strong>STEP 3: Make the Frosting</strong></p>
+      <ol>
+        <li>Beat cream cheese and butter until smooth.</li>
+        <li>Add powdered sugar, vanilla, and salt. Beat until creamy.</li>
+        <li>Chill frosting 10–15 mins for thicker texture.</li>
+      </ol>
+
+      <p><strong>STEP 4: Decorate!</strong></p>
+      <ol>
+        <li>Once cookies are cool, pipe or dollop frosting on top.</li>
+        <li>Optional: sprinkle with cookie crumbs or white choc shavings.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Soft, rich, frosted — red velvet perfection!</p>
+  </footer>
+</body>
+</html>

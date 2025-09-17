@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Salted Caramel Banana Cake - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Salted Caramel Banana Cake</h2>
+
+    <img src="{{ url_for('static', filename='images/banana-cake.jpeg') }}" alt="Salted Caramel Banana Cake" class="recipe-image">
+
+    <p>
+      This Salted Caramel Banana Cake is the kind of dessert that gets better with every bite. The moistness 
+      from ripe bananas, combined with the richness of Greek yogurt and brown sugar, gives this cake a naturally 
+      sweet, deeply satisfying texture. It's the perfect balance between comforting banana bread and indulgent 
+      cake. And the salted caramel frosting? It’s not just a topping—it’s a creamy, sweet-salty finish that takes 
+      the whole thing to a new level. If you’ve got overripe bananas on the counter, don’t overthink it—this is 
+      the recipe they’re meant for.
+    </p>
+    <p>
+      Whether you're baking for friends, a weekend treat, or just yourself, this recipe is straightforward and 
+      hard to mess up if you follow the steps with care. Want to make it healthier or need to switch things up 
+      for dietary reasons? Just ask our built-in AI chatbot! It can instantly suggest vegan, gluten-free, or 
+      low-sugar alternatives without compromising taste or texture. Whether it’s swapping out butter, eggs, or 
+      flour, you’ll get clear, usable advice tailored to this exact recipe.
+    </p>
+
+    <p><strong>Serving Size:</strong> 8–10 slices</p>
+    <p><strong>Baking Temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Baking Time:</strong> 28–35 minutes</p>
+    <p><strong>Cooling Time:</strong> Allow to cool completely before frosting (about 1 hour)</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>For the Banana Cake:</h4>
+      <ul>
+        <li>1 ½ cups (180g) whole wheat flour</li>
+        <li>1 tsp baking soda</li>
+        <li>½ tsp baking powder</li>
+        <li>½ tsp salt</li>
+        <li>1 tsp cinnamon (optional)</li>
+        <li>½ cup (115g) unsalted butter, softened</li>
+        <li>½ cup (100g) brown sugar</li>
+        <li>¼ cup (60ml) honey or maple syrup</li>
+        <li>2 large eggs, room temperature</li>
+        <li>1 tsp vanilla extract</li>
+        <li>½ cup (120g) Greek yogurt or sour cream</li>
+        <li>3 medium ripe bananas, mashed (about 1 ¼ cups)</li>
+      </ul>
+
+      <h4>For the Simple Salted Caramel Frosting:</h4>
+      <ul>
+        <li>½ cup (100g) brown sugar</li>
+        <li>¼ cup (60g) unsalted butter</li>
+        <li>2 tbsp milk or cream</li>
+        <li>Pinch of sea salt</li>
+        <li>1 cup (120g) powdered sugar, sifted</li>
+        <li>Optional: extra sea salt for topping</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Directions</h3>
+
+      <p><strong>Step 1: Bake the Cake</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F. Grease and line an 8-inch pan.</li>
+        <li>Whisk whole wheat flour, baking soda, baking powder, salt, and cinnamon together.</li>
+        <li>Cream butter, brown sugar, and honey until light and fluffy (2–3 minutes).</li>
+        <li>Add eggs one at a time, beating well after each. Stir in vanilla.</li>
+        <li>Mix in mashed bananas and Greek yogurt.</li>
+        <li>Fold in dry ingredients until just combined—do not overmix.</li>
+        <li>Pour into the prepared pan and bake for 28–35 minutes, or until a toothpick inserted comes out clean.</li>
+        <li>Cool completely before frosting.</li>
+      </ol>
+
+      <p><strong>Step 2: Make the Salted Caramel Frosting</strong></p>
+      <ol>
+        <li>In a small saucepan, melt butter and brown sugar over medium heat.</li>
+        <li>Stir constantly until bubbly (2–3 minutes). Add milk or cream and salt.</li>
+        <li>Let it bubble for 1 minute, then remove from heat and let cool for 5–10 minutes.</li>
+        <li>Stir in powdered sugar until smooth.</li>
+        <li>Adjust consistency with more sugar or a few drops of milk if needed.</li>
+        <li>Spread over the cooled cake. Sprinkle with extra salt if desired.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with care and cupcakes.</p>
+  </footer>
+</body>
+</html>

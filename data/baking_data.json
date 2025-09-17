@@ -1,0 +1,1300 @@
+[
+    { "question": "how long to bake chocolate cherry cake for?", "answer": "30 minutes at 175°C" },
+    { "question": "If I have flour, sugar, eggs, milk and cocoa powder in my pantry, what can I make?", "answer": "Dark chocolate cherry cake"},
+    {"question": "what can I substitute for blueberries in vanilla blueberry cake?", "answer": "rasberries, strawberries and even blackberries"},
+    {"question": "what can I make if I have berries, flour, sugar, eggs and butter?", "answer": "vanilla blueberry cake"},
+    {"question": "How do I make my banana cake better?", "answer": "Use whole wheat flour instead of all purpose flour and heat your butter till it is brown for a rich nutty flavour"},
+    {"question": "What is your best gluten free recipe?", "answer": "Apple cake made from oat flour"},
+    {"question": "I want your best healthy cake recipe", "answer": "Date cake, made fully with date paste instead of sugar, Ghee and olive oil instead of butter, oat flour instead of all purpose flour"},
+    {"question": "Can I make your recipes Keto friendly?", "answer": "absolutely, but this only applies for Cookies and Cakes. You can substitute all purpose flour for almond, coconut, walnut flour and substitute sugar with monk fruit or stevia."},
+    {"question": "Can you suggest me your most uniques recipes?", "answer": "ornage olive oil cake, pumpkin chai cookies, sourdough bluberry lemon and rasberry ice cream sandwich"},
+    {"question": "Can you suggest me your easiest recipes?", "answer": "apple crumble pie without the base pie crust, japenese fluffy pancakes and matcha cookies"},
+    {"question": "It is christmas, suggest me some recipes suitable for this occasion", "answer": "Ginger bread cookies and cinnamon rolls"},
+    {"question": "I am not sure whether my cake is baked properly based on your timing", "answer": "take a fork and put through your cake and check if it is cooked all the way through, if not then bake for a few more minutes and check every ten minutes to avoid burning the cake"},
+    {"question": "I am craving rich decadent deserts", "answer": "Hazelnut chocolate cupcake and pecan pie"},
+    {"question": "I want a really good sweet breakfast recipe", "answer": "Japenese fluffy pancakes"},
+    {"question": "I am new to baking, What can I make from your recipes?", "answer": "lychee basque cheescake, but ensure it is cooled overnight before digging in!"},
+    {"question": "I have orange, butter, sugar, eggs and flour in my pantry, what can I make?", "answer": "orange olive oil cake but you can substitute olive oil with butter!"},
+    {"question": "How do I avoid making my cookies from joining other cookies and getting flat", "answer": "Please use semi hard butter for the recipe and avoid adding too much butter"},
+    {"question": "Do you have a savoury recipe?", "answer": "Olive oil Focaccia, tastes just like pizza!!"},
+    {"question": "I want a challenging recipe", "answer": "Chocolate Croissants"},
+    {"question": "My caramel sauce never comes out right Can you help me", "answer": "Heat up sugar with butter ensure it does not burn, then when it is hot enough add milk"},
+    {"question": "Suggest a simple cream cheese frosting?", "answer": "One part cream cheese, half sugar and few tablespoons of milk"},
+    {"question": "I want a sweet yet not too sweet recipe", "answer": "Brioche bread recipe"},
+    {"question": "I am lactose intolreant what Can I substitute milk and butter with", "answer": "You can easily substitute with any nut milk of your choice and Ghee instead of butter"},
+    {"question": "Suggest a fruity delicious desert", "answer": "lemon bars"},
+    {"question": "What are naturally gluten free recipes", "answer": "Blueberry Macarons and basque cheescake"},
+    {"question": "I want a unique pie recipe", "answer": "pear oat pie"},
+    {
+        "question": "What's a vegan gingerbread cookies recipe?",
+        "answer": "Replace butter with vegan butter and egg with a flax egg (1 tbsp ground flaxseed + 3 tbsp water)."
+    },
+    {
+        "question": "Is your gingerbread cookies recipe gluten-free?",
+        "answer": "Yes, you can use oat flour or a gluten-free flour blend."
+    },
+    {
+        "question": "How can I make a healthy gingerbread cookies?",
+        "answer": "Use whole wheat flour, coconut sugar, and coconut oil."
+    },
+    {
+        "question": "I have flour, sugar, cocoa, and cherries. What can I make?",
+        "answer": "Dark Chocolate Cherry Cake."
+    },
+    {
+        "question": "How can I make the chocolate cherry cake vegan?",
+        "answer": "You can use flax eggs, plant-based milk with a bit of vinegar, and vegan chocolate chips."
+    },
+    {
+        "question": "I have flour, eggs, and blueberries. What's a recipe I can make?",
+        "answer": "Vanilla Blueberry Cake."
+    },
+    {
+        "question": "How do I make vegan cinnamon rolls?",
+        "answer": "Use soy or almond milk, flax eggs, vegan butter, and vegan cream cheese for the frosting."
+    },
+    {
+        "question": "Is your cinnamon rolls recipe gluten-free?",
+        "answer": "Use a gluten-free flour blend with xanthan gum. The rest of the ingredients are naturally gluten-free."
+    },
+    {
+        "question": "What can I use instead of milk in the cinnamon rolls?",
+        "answer": "You can use soy, oat, or almond milk as a substitute."
+    },
+    {
+        "question": "I have flour, bananas, and butter. What can I bake?",
+        "answer": "Banana Cake."
+    },
+    {
+        "question": "How do I make a healthy banana cake?",
+        "answer": "Use mashed avocado or olive oil instead of butter, almond or oat flour, and coconut sugar."
+    },
+    {
+        "question": "Can I make your carrot cake recipe healthy?",
+        "answer": "Yes, you can use a mix of almond and oat flour, coconut sugar, and applesauce instead of oil."
+    },
+    {
+        "question": "What can I use instead of egg yolk for matcha cookies?",
+        "answer": "You can use 1 tbsp of flaxseed with 1.5 tbsp of water."
+    },
+    {
+        "question": "Is your apple pie gluten-free?",
+        "answer": "Yes, use oat flour in the crumble and cornstarch to thicken the filling. Ensure your crust is also gluten-free."
+    },
+    {
+        "question": "What can I substitute for butter in the apple pie crust?",
+        "answer": "You can use a plant-based block butter or firm coconut oil."
+    },
+    {
+        "question": "How do I make a vegan lychee basque cheesecake?",
+        "answer": "Use vegan cream cheese, coconut or soy cream, and 3 tbsp of cornstarch with 6 tbsp of water as an egg replacement."
+    },
+    {
+        "question": "Is your lychee basque cheesecake recipe gluten-free?",
+        "answer": "The recipe is naturally gluten-free. Just double-check your cornstarch and lychees are certified gluten-free."
+    },
+    {
+        "question": "What can I use instead of sugar in your Japanese fluffy pancakes?",
+        "answer": "You can use coconut sugar or maple syrup for a healthier option."
+    },
+    {
+        "question": "I want a vegan red velvet cookie recipe.",
+        "answer": "Use vegan butter, a flax egg, dairy-free cream cheese, and vegan white chocolate."
+    },
+    {
+        "question": "What can I use instead of oil in the hazelnut chocolate cupcakes?",
+        "answer": "You can use 2 tbsp of oil plus 1/4 cup of unsweetened applesauce for a healthier option."
+    },
+    {
+        "question": "How do I make a vegan date cake?",
+        "answer": "Use flax eggs, plant-based yogurt, and oat or almond milk. Use maple syrup instead of honey for the glaze."
+    },
+    {
+        "question": "What can I use instead of honey in the pecan pie?",
+        "answer": "You can use maple syrup or agave for a vegan version."
+    },
+    {
+        "question": "How to make vegan lemon bars?",
+        "answer": "Use vegan butter and a flaxseed-water mix for the eggs in both the crust and the filling."
+    },
+    {
+        "question": "How to make a healthy olive oil focaccia?",
+        "answer": "Use a mix of whole wheat and all-purpose flour, less olive oil, and top it with roasted vegetables."
+    },
+    {
+        "question": "What can I use instead of egg whites for macarons?",
+        "answer": "You can use 6 tbsp of aquafaba instead of 90g of egg whites."
+    },
+    {
+        "question": "What are some good recipes for autumn?",
+        "answer": "Cinnamon Rolls, Apple Pie, Hazelnut Chocolate Cupcakes, Pecan Pie, and Pumpkin Chai Cookies."
+    },
+    {
+        "question": "What recipes are good for spring?",
+        "answer": "Vanilla Blueberry Cake and Lychee Basque Cheesecake."
+    },
+    {
+        "question": "What are some good summer recipes?",
+        "answer": "Chocolate Cherry Cake, Japanese Fluffy Pancakes, Raspberry Ice Cream Sandwich, Orange Olive Oil Cake, Lemon Bars, Blueberry Lemon Sourdough Boule, and Blueberry Macarons."
+    },
+    {
+        "question": "What are some good winter recipes?",
+        "answer": "Gingerbread Cookies, Banana Cake, Carrot Cake, Matcha Cookies, Pear Oat Pie, Date Cake, Brioche Bread, Olive Oil Focaccia, and Red Velvet Cookies."
+    },
+    {
+        "question": "What's a good summer recipe with flour, sugar, and cherries?",
+        "answer": "You can try making the Chocolate Cherry Cake."
+    },
+    {
+        "question": "I have cinnamon, flour, and apples. What can I bake?",
+        "answer": "You can make Apple Pie."
+    },
+    {
+        "question": "I'm craving something with hazelnut and chocolate. What's a good recipe?",
+        "answer": "You should try the Hazelnut Chocolate Cupcakes."
+    },
+    {
+        "question": "I have pumpkin puree, flour, and sugar. What can I bake?",
+        "answer": "You can make Pumpkin Chai Cookies."
+    },
+    {
+        "question": "What's a good pie recipe for autumn?",
+        "answer": "You should try the Pecan Pie."
+    },
+    {
+        "question": "I have eggs, lemons, flour, and sugar. What can I bake?",
+        "answer": "You can make Lemon Bars."
+    },
+    {
+        "question": "Can I make the Brioche Bread recipe without milk?",
+        "answer": "Yes, you can substitute milk with any plant-based milk of your choice."
+    },
+    {
+        "question": "I have sourdough starter, blueberries, and lemons. What can I make?",
+        "answer": "You can bake the Blueberry Lemon Sourdough Boule."
+    },
+    {
+        "question": "What can I substitute for olive oil in the Focaccia recipe?",
+        "answer": "You can use a neutral oil like vegetable or canola oil."
+    },
+    {
+        "question": "I have almonds and sugar. Can I make anything with them?",
+        "answer": "You can make Blueberry Macarons, which are naturally gluten-free!"
+    },
+    {
+        "question": "Is the Chocolate Cherry Cake a summer recipe?",
+        "answer": "Yes, the Chocolate Cherry Cake is a great recipe for summer."
+    },
+    {
+        "question": "What are some good recipes for Christmas?",
+        "answer": "Gingerbread Cookies and Cinnamon Rolls are perfect for Christmas."
+    },
+    {
+        "question": "What's a good recipe for a cold day?",
+        "answer": "You could make Carrot Cake or Pear Oat Pie, which are perfect for winter."
+    },
+    {
+        "question": "I have ginger, molasses, and flour. What can I make?",
+        "answer": "You can make Gingerbread Cookies."
+    },
+    {
+        "question": "I have carrots, flour, and oil. What can I bake?",
+        "answer": "You can make Carrot Cake."
+    },
+    {
+        "question": "What's a good winter recipe with cinnamon?",
+        "answer": "You can make Cinnamon Rolls."
+    },
+    {
+        "question": "What's a good recipe to bake with my kids?",
+        "answer": "Gingerbread Cookies are a fun and easy recipe to make with kids."
+    },
+    {
+        "question": "I have leftover bananas. What's a good recipe?",
+        "answer": "You can make Banana Cake with your leftover bananas."
+    },
+    {
+        "question": "Do you have a cake recipe that's not too sweet?",
+        "answer": "Yes, the Brioche Bread recipe is a good option. It is a sweet bread, but not overly so."
+    },
+    {
+        "question": "What's a savory recipe you have?",
+        "answer": "You can make the Olive Oil Focaccia, it tastes like pizza!"
+    },
+    {
+        "question": "Can I make the Blueberry Macarons without egg whites?",
+        "answer": "Yes, you can use aquafaba (chickpea liquid) as a replacement for the egg whites."
+    },
+    {
+        "question": "What's a good recipe to use up my oranges?",
+        "answer": "You can bake the Orange Olive Oil Cake."
+    },
+    {
+        "question": "What can I use instead of apples in the Apple Pie?",
+        "answer": "You can use pears or firm plums as a substitute for apples."
+    },
+    {
+        "question": "What's a unique dessert I can make?",
+        "answer": "You could try the Sourdough Blueberry Lemon and Raspberry Ice Cream Sandwich."
+    },
+    {
+        "question": "My cake is not baking properly, what should I do?",
+        "answer": "Take a fork and insert it into the center of the cake. If it comes out clean, it's done. If not, bake it for a few more minutes and check again every 10 minutes."
+    },
+    {
+        "question": "What's a quick and easy recipe for a party?",
+        "answer": "The Japanese Fluffy Pancakes or Matcha Cookies are both easy and delicious options."
+    },
+    {
+        "question": "What can I make if I have coconut sugar and whole wheat flour in my pantry?",
+        "answer": "You can make a healthier version of the Banana Cake or Carrot Cake."
+    },
+    {
+        "question": "I want a simple frosting recipe.",
+        "answer": "A simple cream cheese frosting is one part cream cheese, half sugar, and a few tablespoons of milk."
+    },
+    {
+        "question": "How do I make the Red Velvet Cookies without butter?",
+        "answer": "You can use vegan butter as a substitute."
+    },
+    {
+        "question": "What's a good recipe with dates?",
+        "answer": "You can make the Date Cake, which uses date paste instead of sugar for a healthy alternative."
+    },
+    {
+        "question": "I'm looking for a dessert that is naturally gluten-free.",
+        "answer": "The Blueberry Macarons and Basque Cheesecake are both naturally gluten-free."
+    },
+    {
+        "question": "What can I use instead of flour in the Carrot Cake?",
+        "answer": "You can use a mix of almond flour and oat flour for a healthier version."
+    },
+    {
+        "question": "How do I make a healthy version of the Red Velvet Cookies?",
+        "answer": "You can use coconut sugar and maple syrup, applesauce for the egg, and oat or whole wheat flour."
+    },
+    {
+        "question": "I have pecans and maple syrup. What can I bake?",
+        "answer": "You can make Pecan Pie."
+    },
+    {
+        "question": "What's a good vegan recipe for a cold winter day?",
+        "answer": "You can make vegan Gingerbread Cookies or vegan Cinnamon Rolls."
+    },
+    {
+        "question": "Can I make the Japanese Fluffy Pancakes without a non-stick pan?",
+        "answer": "Yes, but you will need to grease the pan well to prevent sticking."
+    },
+    {
+        "question": "What's a good birthday cake recipe?",
+        "answer": "The Chocolate Cherry Cake or the Orange Olive Oil Cake would both be great for a birthday."
+    },
+    {
+        "question": "What can I substitute for a gluten-free diet in the Brioche Bread?",
+        "answer": "You can use a gluten-free flour blend with xanthan gum."
+    },
+    {
+        "question": "I want to bake something with oats. What do you suggest?",
+        "answer": "You can try the Pear Oat Pie or the healthy versions of many of the recipes that use oat flour."
+    },
+    {
+        "question": "How do I make a vegan version of the Hazelnut Chocolate Cupcakes?",
+        "answer": "Replace eggs with a flaxseed mix, milk with a plant-based alternative, and butter/spread with vegan versions."
+    },
+    {
+        "question": "What's a recipe that is great for a picnic?",
+        "answer": "The Olive Oil Focaccia is perfect for a picnic."
+    },
+    {
+        "question": "I have leftover yogurt. What's a good recipe?",
+        "answer": "You can use it in the Japanese Fluffy Pancakes or the Orange Olive Oil Cake."
+    },
+    {
+        "question": "Can I make the Date Cake without oil?",
+        "answer": "Yes, you can use applesauce as a substitute for the oil."
+    },
+    {
+        "question": "What's a good recipe with fruit for the summer?",
+        "answer": "The Lemon Bars or the Lychee Basque Cheesecake are both great fruity options for summer."
+    },
+    {
+        "question": "What's a good recipe for a potluck?",
+        "answer": "The Red Velvet Cookies or the Cinnamon Rolls are perfect for a potluck."
+    },
+    {
+        "question": "I have flour, chocolate, and milk. What can I bake?",
+        "answer": "You can make the Hazelnut Chocolate Cupcakes."
+    },
+    {
+        "question": "What's a good recipe to impress my friends?",
+        "answer": "The Chocolate Croissants or the Blueberry Macarons are both impressive recipes to make."
+    },
+    {
+        "question": "What's a good winter recipe with cinnamon?",
+        "answer": "The Cinnamon Rolls are a great choice for a winter treat."
+    },
+    {
+        "question": "What's a good healthy recipe with carrots?",
+        "answer": "The Carrot Cake recipe can be made healthier by using a mix of almond and oat flour, coconut sugar, and applesauce instead of oil."
+    },
+    {
+        "question": "I'm looking for a recipe that uses nuts. Any suggestions?",
+        "answer": "You can try the Pecan Pie, Date Cake with walnuts, or the Hazelnut Chocolate Cupcakes."
+    },
+    {
+        "question": "What's a good recipe for a bake sale?",
+        "answer": "The Red Velvet Cookies, Matcha Cookies, or Gingerbread Cookies would all be great for a bake sale."
+    },
+    {
+        "question": "What can I substitute for butter in the Brioche Bread?",
+        "answer": "You can use a vegan butter as a substitute."
+    },
+    {
+        "question": "I have fresh raspberries. What's a good recipe?",
+        "answer": "You can make the Raspberry Ice Cream Sandwich or use them as a substitute for blueberries in the Vanilla Blueberry Cake."
+    },
+    {
+        "question": "I'm looking for a recipe that is great for sharing.",
+        "answer": "The Olive Oil Focaccia is perfect for sharing, as it can be cut into small pieces."
+    },
+    {
+        "question": "How do I make a sweet yet not too sweet dessert?",
+        "answer": "The Brioche Bread is a great option as it is sweet, but not overly so."
+    },
+    {
+        "question": "What's a good recipe with chocolate and fruit?",
+        "answer": "The Dark Chocolate Cherry Cake is a great option with both chocolate and fruit."
+    },
+    {
+        "question": "What can I use instead of sugar in the Pumpkin Chai Cookies?",
+        "answer": "You can use coconut sugar and maple syrup for a healthier version."
+    },
+    {
+        "question": "I'm looking for a recipe that's great for beginners.",
+        "answer": "The Apple Crumble Pie without a base pie crust is a great, simple recipe."
+    },
+    {
+        "question": "What's a good recipe with lemon?",
+        "answer": "You can make the Lemon Bars or the Blueberry Lemon Sourdough Boule."
+    },
+    {
+        "question": "How can I make a healthier version of the Pecan Pie?",
+        "answer": "You can use coconut or date sugar, almond butter, and applesauce."
+    },
+    {
+        "question": "I have leftover dates. What's a good recipe?",
+        "answer": "The Date Cake is a great way to use up leftover dates."
+    },
+    {
+        "question": "What's a good recipe for a special occasion?",
+        "answer": "The Chocolate Croissants or the Lychee Basque Cheesecake are both great for a special occasion."
+    },
+    {
+        "question": "I have flour, sugar, and yeast. What can I bake?",
+        "answer": "You can make Brioche Bread."
+    },
+    {
+        "question": "What's a good savory recipe to bring to a dinner party?",
+        "answer": "The Olive Oil Focaccia is a great savory recipe for a dinner party."
+    },
+    {
+        "question": "What can I substitute for the oil in the Chocolate Cherry Cake?",
+        "answer": "You can use melted coconut oil instead of vegetable oil."
+    },
+    {
+        "question": "I have flour, cocoa powder, sugar, and baking powder. What can I bake?",
+        "answer": "You can make the Chocolate Cherry Cake."
+    },
+    {
+        "question": "What can I use instead of sour cream in the Vanilla Blueberry Cake?",
+        "answer": "You can use coconut yogurt as a substitute for sour cream."
+    },
+    {
+        "question": "How can I make the Chocolate Cherry Cake with less sugar?",
+        "answer": "You can make a healthy version by reducing the sugar and using applesauce."
+    },
+    {
+        "question": "Can I make the Banana Cake with a different type of flour?",
+        "answer": "Yes, you can use oat flour or a gluten-free blend with xanthan gum."
+    },
+    {
+        "question": "What can I use for the frosting in the Carrot Cake if I don't have cream cheese?",
+        "answer": "You can use whipped Greek yogurt with maple syrup as a substitute."
+    },
+    {
+        "question": "How can I make the Matcha Cookies vegan?",
+        "answer": "Replace the butter with vegan butter and the egg with a flax egg (1 tbsp flaxseed + 3 tbsp water)."
+    },
+    {
+        "question": "What can I substitute for brown sugar in the Apple Pie?",
+        "answer": "You can use coconut sugar."
+    },
+    {
+        "question": "I have cream cheese, sugar, and lychees. What can I make?",
+        "answer": "You can make the Lychee Basque Cheesecake."
+    },
+    {
+        "question": "Can I make the Japanese Fluffy Pancakes healthier?",
+        "answer": "Yes, you can use whole wheat or oat flour, coconut sugar or maple syrup, and low-fat Greek yogurt."
+    },
+    {
+        "question": "What's a good fall recipe with a nutty flavor?",
+        "answer": "The Pecan Pie or Hazelnut Chocolate Cupcakes are great choices."
+    },
+    {
+        "question": "I have lemons, flour, and butter. What can I make?",
+        "answer": "You can make Lemon Bars."
+    },
+    {
+        "question": "What can I use instead of honey in the Pecan Pie?",
+        "answer": "You can use maple syrup or agave for a vegan option."
+    },
+    {
+        "question": "I have flour, eggs, milk, and yeast. What can I bake?",
+        "answer": "You can make Brioche Bread."
+    },
+    {
+        "question": "How do I make a gluten-free version of the Brioche Bread?",
+        "answer": "Use oat flour with xanthan gum, and make sure your milk, butter, and yeast are gluten-free certified."
+    },
+    {
+        "question": "I'm looking for a savory recipe. Any suggestions?",
+        "answer": "You should try the Olive Oil Focaccia."
+    },
+    {
+        "question": "Hi",
+        "answer": "Hello, I am your AI baking chatbot. Please ask me any question related to this website's recipes!"
+    },
+    {
+        "question": "How are you?",
+        "answer": "I am good, Have a baking related question? Ask away!"
+    },
+    {
+        "question": "What are you?",
+        "answer": "Your AI baking chatbot assistant"
+    },
+    {
+        "question": "What can I make if I have flour, sugar, and baking powder in my pantry?",
+        "answer": "You can make the Chocolate Cherry Cake."
+    },
+    {
+        "question": "I have flour, sugar, and bananas. What's a good recipe?",
+        "answer": "You can make Banana Cake."
+    },
+    {
+        "question": "What can I make if I have flour, sugar, and carrots?",
+        "answer": "You can make Carrot Cake."
+    },
+    {
+        "question": "I have flour, sugar, and matcha powder. What can I bake?",
+        "answer": "You can make Matcha Cookies."
+    },
+    {
+        "question": "I have flour, sugar, and apples. What's a good recipe?",
+        "answer": "You can make Apple Pie."
+    },
+    {
+        "question": "I have cream cheese, eggs, and sugar. What can I make?",
+        "answer": "You can make the Lychee Basque Cheesecake."
+    },
+    {
+        "question": "What can I bake if I have flour, eggs, and milk?",
+        "answer": "You can make Japanese Fluffy Pancakes."
+    },
+    {
+        "question": "I have rolled oats and raspberries in my pantry. What can I make?",
+        "answer": "You can make the Raspberry Ice Cream Sandwich."
+    },
+    {
+        "question": "What's a good recipe if I have flour, sugar, and cocoa powder?",
+        "answer": "You can make the Red Velvet Cookies."
+    },
+    {
+        "question": "What can I bake with oranges, flour, and sugar?",
+        "answer": "You can make the Orange Olive Oil Cake."
+    },
+    {
+        "question": "I have pumpkin puree, flour, and sugar. What's a good recipe?",
+        "answer": "You can make Pumpkin Chai Cookies."
+    },
+    {
+        "question": "What can I make if I have pears and oats in my pantry?",
+        "answer": "You can make Pear Oat Pie."
+    },
+    {
+        "question": "I have flour, sugar, cocoa, and hazelnuts. What can I make?",
+        "answer": "You can make Hazelnut Chocolate Cupcakes."
+    },
+    {
+        "question": "What's a good recipe if I have dates and walnuts?",
+        "answer": "You can make Date Cake."
+    },
+    {
+        "question": "I have pecans, eggs, and butter. What can I bake?",
+        "answer": "You can make Pecan Pie."
+    },
+    {
+        "question": "What can I make with lemons, eggs, and sugar?",
+        "answer": "You can make Lemon Bars."
+    },
+    {
+        "question": "I have flour, butter, and eggs. What can I bake?",
+        "answer": "You can make Brioche Bread."
+    },
+    {
+        "question": "I have sourdough starter and blueberries. What's a good recipe?",
+        "answer": "You can make the Blueberry Lemon Sourdough Boule."
+    },
+    {
+        "question": "What can I make if I have olive oil, flour, and salt?",
+        "answer": "You can make Olive Oil Focaccia."
+    },
+    {
+        "question": "I have almonds, sugar, and egg whites. What can I make?",
+        "answer": "You can make Blueberry Macarons."
+    },
+    {
+        "question": "What's a good cake recipe for a birthday?",
+        "answer": "The Chocolate Cherry Cake and Orange Olive Oil Cake are both excellent choices for a birthday."
+    },
+    {
+        "question": "I want to bake something for Thanksgiving. What do you suggest?",
+        "answer": "The Pecan Pie or Apple Pie are perfect for a Thanksgiving dessert."
+    },
+    {
+        "question": "I'm looking for a recipe with a rustic feel.",
+        "answer": "You can try the Olive Oil Focaccia or the Blueberry Lemon Sourdough Boule."
+    },
+    {
+        "question": "What can I substitute for the butter in the Cinnamon Rolls?",
+        "answer": "You can use vegan butter, coconut oil, or applesauce."
+    },
+    {
+        "question": "What's a good dessert for a picnic?",
+        "answer": "The Lemon Bars or Raspberry Ice Cream Sandwich would be great for a picnic."
+    },
+    {
+        "question": "How do I make the Lychee Basque Cheesecake healthier?",
+        "answer": "You can use light cream cheese or Greek yogurt, coconut sugar instead of caster sugar, and light coconut cream."
+    },
+    {
+        "question": "What's a good winter recipe with fruit?",
+        "answer": "The Pear Oat Pie or Date Cake are both excellent winter recipes with fruit."
+    },
+    {
+        "question": "I'm looking for a recipe that uses my sourdough starter.",
+        "answer": "You can make the Blueberry Lemon Sourdough Boule."
+    },
+    {
+        "question": "What's a good pie recipe for a gluten-free diet?",
+        "answer": "The Pear Oat Pie can be made gluten-free by using oat flour for the crust and crumble."
+    },
+    {
+        "question": "How do I make a vegan version of the Red Velvet Cookies?",
+        "answer": "Use vegan butter, a flax egg, and dairy-free cream cheese."
+    },
+    {
+        "question": "I'm looking for a sweet breakfast recipe that is also healthy.",
+        "answer": "You can try a healthy version of the Japanese Fluffy Pancakes, made with whole wheat or oat flour and coconut sugar."
+    },
+    {
+        "question": "What can I use instead of powdered sugar for the frosting on the Cinnamon Rolls?",
+        "answer": "You can use blended coconut sugar or maple syrup."
+    },
+    {
+        "question": "How can I make the Chocolate Cherry Cake with a healthy twist?",
+        "answer": "You can use whole wheat flour, reduce the sugar, and use applesauce instead of some of the oil."
+    },
+    {
+        "question": "What's a good cookie recipe for the fall season?",
+        "answer": "The Pumpkin Chai Cookies are a perfect choice for autumn."
+    },
+    {
+        "question": "What can I substitute for the cream cheese in the Vanilla Blueberry Cake?",
+        "answer": "You can use vegan cream cheese."
+    },
+    {
+        "question": "Is the Chocolate Cherry Cake a good recipe for summer?",
+        "answer": "Yes, it is a great summer recipe."
+    },
+    {
+        "question": "How can I make the Cinnamon Rolls healthier?",
+        "answer": "You can use whole wheat and oat flour, coconut sugar, and applesauce instead of some of the butter."
+    },
+    {
+        "question": "What's a good way to use up old bananas?",
+        "answer": "You can make a Banana Cake with them."
+    },
+    {
+        "question": "What can I use instead of powdered sugar for the Carrot Cake frosting?",
+        "answer": "You can use blended dates or maple syrup."
+    },
+    {
+        "question": "How do I make the Matcha Cookies vegan?",
+        "answer": "Replace butter with vegan butter and egg with a flaxseed mix (1 tbsp flaxseed + 3 tbsp water)."
+    },
+    {
+        "question": "I'm looking for a gluten-free pie recipe. Do you have one?",
+        "answer": "Yes, the Pear Oat Pie can be made gluten-free by using oat flour for both the crust and the crumble."
+    },
+    {
+        "question": "What's a good recipe with hazelnut and chocolate?",
+        "answer": "You can make the Hazelnut Chocolate Cupcakes."
+    },
+    {
+        "question": "I have dates and walnuts in my pantry. What can I make?",
+        "answer": "You can make Date Cake."
+    },
+    {
+        "question": "What can I use instead of honey in the Pecan Pie?",
+        "answer": "You can use maple syrup or agave."
+    },
+    {
+        "question": "How do I make the Lemon Bars healthier?",
+        "answer": "Use whole wheat flour, coconut sugar or honey, applesauce, and a mix of butter and olive oil."
+    },
+    {
+        "question": "What's a good challenging recipe for an experienced baker?",
+        "answer": "You can try the Chocolate Croissants."
+    },
+    {
+        "question": "Do you have a savory bread recipe?",
+        "answer": "Yes, the Olive Oil Focaccia is a great savory bread recipe."
+    },
+    {
+        "question": "I have almonds, sugar, and egg whites. What can I bake?",
+        "answer": "You can make Blueberry Macarons."
+    },
+    {
+        "question": "What are some good recipes for Christmas?",
+        "answer": "Gingerbread Cookies and Cinnamon Rolls are perfect for Christmas."
+    },
+    {
+        "question": "What is a good recipe for a sweet yet not too sweet treat?",
+        "answer": "You can make the Brioche Bread."
+    },
+    {
+        "question": "I'm new to baking. What do you suggest?",
+        "answer": "You can try the Apple Crumble Pie without the base pie crust or the Japanese Fluffy Pancakes."
+    },
+    {
+        "question": "What's a good spring recipe with vanilla and blueberries?",
+        "answer": "You can make the Vanilla Blueberry Cake."
+    },
+    {
+        "question": "How do I make a healthy version of the Chocolate Cherry Cake?",
+        "answer": "You can use whole wheat flour, reduce the sugar, and use applesauce instead of oil."
+    },
+    {
+        "question": "What can I use instead of egg in the Cinnamon Rolls?",
+        "answer": "You can use a flax egg (1 tbsp flaxseed + 3 tbsp water)."
+    },
+    {
+        "question": "I have carrots, pineapple, and pecans. What can I bake?",
+        "answer": "You can make Carrot Cake."
+    },
+    {
+        "question": "What's a good fall recipe with a nutty flavor?",
+        "answer": "The Pecan Pie or Hazelnut Chocolate Cupcakes are great choices."
+    },
+    {
+        "question": "What can I substitute for the butter in the Gingerbread Cookies?",
+        "answer": "You can use vegan butter or coconut oil."
+    },
+    {
+        "question": "What can I use for the frosting in the Carrot Cake if I don't have cream cheese?",
+        "answer": "You can use whipped Greek yogurt with a little bit of maple syrup for a healthier frosting."
+    },
+    {
+        "question": "I have lemons, flour, and sugar. What can I bake?",
+        "answer": "You can make Lemon Bars."
+    },
+    {
+        "question": "What's a good savory recipe for a dinner party?",
+        "answer": "The Olive Oil Focaccia is perfect for a dinner party."
+    },
+    {
+        "question": "What's a good sweet yet not too sweet treat?",
+        "answer": "You can make the Brioche Bread."
+    },
+    {
+        "question": "What's a good pie recipe for a gluten-free diet?",
+        "answer": "The Pear Oat Pie can be made gluten-free by using oat flour for both the crust and the crumble."
+    },
+    {
+        "question": "I'm looking for a recipe that is great for sharing.",
+        "answer": "The Olive Oil Focaccia is perfect for sharing, as it can be cut into small pieces."
+    },
+    {
+        "question": "How can I make a healthier version of the Pumpkin Chai Cookies?",
+        "answer": "You can use coconut oil and unsweetened applesauce instead of butter, and coconut sugar and maple syrup for the sugars."
+    },
+    {
+        "question": "What's a good cookie recipe for a bake sale?",
+        "answer": "The Red Velvet Cookies, Matcha Cookies, or Gingerbread Cookies would all be great for a bake sale."
+    },
+    {
+        "question": "Can I make the Blueberry Macarons without egg whites?",
+        "answer": "Yes, you can use aquafaba (chickpea liquid) as a replacement for the egg whites."
+    },
+    {
+        "question": "What's a good recipe with leftover dates?",
+        "answer": "You can make the Date Cake, which uses date paste instead of sugar for a healthy alternative."
+    },
+    {
+        "question": "What can I substitute for egg in the Gingerbread Cookies?",
+        "answer": "In Gingerbread Cookies, instead of egg, use 1 tbsp ground flaxseed + 3 tbsp water."
+    },
+    {
+        "question": "What can I substitute for butter in the Gingerbread Cookies?",
+        "answer": "In Gingerbread Cookies, instead of butter, use vegan butter or coconut oil."
+    },
+    {
+        "question": "What can I substitute for eggs in the Chocolate Cherry Cake?",
+        "answer": "In Chocolate Cherry Cake, instead of eggs, use 2 flax eggs (2 tbsp flaxseed + 6 tbsp water)."
+    },
+    {
+        "question": "What can I substitute for coffee in the Chocolate Cherry Cake?",
+        "answer": "In Chocolate Cherry Cake, instead of coffee, use hot water."
+    },
+    {
+        "question": "What can I substitute for buttermilk in the Chocolate Cherry Cake?",
+        "answer": "In Chocolate Cherry Cake, instead of buttermilk, use 1 cup milk + 1 tbsp lemon juice."
+    },
+    {
+        "question": "What can I substitute for oil in the Chocolate Cherry Cake?",
+        "answer": "In Chocolate Cherry Cake, instead of oil, use melted coconut oil."
+    },
+    {
+        "question": "What can I substitute for kirsch in the Chocolate Cherry Cake?",
+        "answer": "In Chocolate Cherry Cake, instead of kirsch, use cherry juice."
+    },
+    {
+        "question": "What can I substitute for egg in the Vanilla Blueberry Cake?",
+        "answer": "In Vanilla Blueberry Cake, instead of egg, use 1 tbsp flaxseed + 3 tbsp water per egg white."
+    },
+    {
+        "question": "What can I substitute for butter in the Vanilla Blueberry Cake?",
+        "answer": "In Vanilla Blueberry Cake, instead of butter, use coconut oil or vegan butter."
+    },
+    {
+        "question": "What can I substitute for buttermilk in the Vanilla Blueberry Cake?",
+        "answer": "In Vanilla Blueberry Cake, instead of buttermilk, use plant milk + lemon juice."
+    },
+    {
+        "question": "What can I substitute for flour in the Vanilla Blueberry Cake?",
+        "answer": "In Vanilla Blueberry Cake, instead of flour, use oat or almond flour + xanthan gum."
+    },
+    {
+        "question": "What can I substitute for sourCream in the Vanilla Blueberry Cake?",
+        "answer": "In Vanilla Blueberry Cake, instead of sourCream, use coconut yogurt."
+    },
+    {
+        "question": "What can I substitute for creamCheese in the Vanilla Blueberry Cake?",
+        "answer": "In Vanilla Blueberry Cake, instead of creamCheese, use vegan cream cheese."
+    },
+    {
+        "question": "What can I substitute for cream in the Vanilla Blueberry Cake?",
+        "answer": "In Vanilla Blueberry Cake, instead of cream, use chilled coconut cream."
+    },
+    {
+        "question": "What can I substitute for milk in the Cinnamon Rolls?",
+        "answer": "In Cinnamon Rolls, instead of milk, use soy, oat, or almond milk."
+    },
+    {
+        "question": "What can I substitute for eggs in the Cinnamon Rolls?",
+        "answer": "In Cinnamon Rolls, instead of eggs, use flax eggs (1 tbsp flax + 3 tbsp water per egg)."
+    },
+    {
+        "question": "What can I substitute for butter in the Cinnamon Rolls?",
+        "answer": "In Cinnamon Rolls, instead of butter, use vegan butter, coconut oil, or applesauce."
+    },
+    {
+        "question": "What can I substitute for flour in the Cinnamon Rolls?",
+        "answer": "In Cinnamon Rolls, instead of flour, use gluten-free flour blend + 1 tsp xanthan gum (if not included)."
+    },
+    {
+        "question": "What can I substitute for creamCheese in the Cinnamon Rolls?",
+        "answer": "In Cinnamon Rolls, instead of creamCheese, use vegan cream cheese or Greek yogurt."
+    },
+    {
+        "question": "What can I substitute for sugar in the Cinnamon Rolls?",
+        "answer": "In Cinnamon Rolls, instead of sugar, use coconut sugar or maple syrup."
+    },
+    {
+        "question": "What can I substitute for powderedSugar in the Cinnamon Rolls?",
+        "answer": "In Cinnamon Rolls, instead of powderedSugar, use blended coconut sugar or maple syrup."
+    },
+    {
+        "question": "What can I substitute for eggs in the Banana Cake?",
+        "answer": "In Banana Cake, instead of eggs, use 2 tbsp ground flaxseed + 6 tbsp water."
+    },
+    {
+        "question": "What can I substitute for butter in the Banana Cake?",
+        "answer": "In Banana Cake, instead of butter, use vegan butter, coconut oil, or mashed avocado + olive oil."
+    },
+    {
+        "question": "What can I substitute for flour in the Banana Cake?",
+        "answer": "In Banana Cake, instead of flour, use oat flour + almond flour or gluten-free blend + xanthan gum."
+    },
+    {
+        "question": "What can I substitute for yogurt in the Banana Cake?",
+        "answer": "In Banana Cake, instead of yogurt, use coconut or soy yogurt."
+    },
+    {
+        "question": "What can I substitute for honey in the Banana Cake?",
+        "answer": "In Banana Cake, instead of honey, use maple syrup or agave."
+    },
+    {
+        "question": "What can I substitute for milk in the Banana Cake?",
+        "answer": "In Banana Cake, instead of milk, use almond, oat, or soy milk."
+    },
+    {
+        "question": "What can I substitute for powderedSugar in the Banana Cake?",
+        "answer": "In Banana Cake, instead of powderedSugar, use date paste or maple syrup."
+    },
+    {
+        "question": "What can I substitute for eggs in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of eggs, use 4 tbsp ground flaxseed + 12 tbsp water (let sit 10 min)."
+    },
+    {
+        "question": "What can I substitute for flour in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of flour, use 2 cups gluten-free flour blend + 1 tsp xanthan gum or 1 cup almond flour + 1 cup oat flour."
+    },
+    {
+        "question": "What can I substitute for brownSugar in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of brownSugar, use ½ cup coconut sugar."
+    },
+    {
+        "question": "What can I substitute for whiteSugar in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of whiteSugar, use ¼ cup date sugar or omit."
+    },
+    {
+        "question": "What can I substitute for oil in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of oil, use ½ cup applesauce or ¼ cup olive oil + ¼ cup yogurt."
+    },
+    {
+        "question": "What can I substitute for butter in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of butter, use ½ cup vegan butter or 1 tbsp almond butter."
+    },
+    {
+        "question": "What can I substitute for creamCheese in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of creamCheese, use 225g vegan cream cheese or 225g whipped Greek yogurt."
+    },
+    {
+        "question": "What can I substitute for powderedSugar in the Carrot Cake?",
+        "answer": "In Carrot Cake, instead of powderedSugar, use 2–3 tbsp maple syrup or 3 tbsp blended dates."
+    },
+    {
+        "question": "What can I substitute for egg in the Matcha Cookies?",
+        "answer": "In Matcha Cookies, instead of egg, use 1 tbsp ground flaxseed + 3 tbsp water."
+    },
+    {
+        "question": "What can I substitute for eggs in the Matcha Cookies?",
+        "answer": "In Matcha Cookies, instead of eggs, use 1 tbsp ground flaxseed + 3 tbsp water."
+    },
+    {
+        "question": "What can I substitute for butter in the Matcha Cookies?",
+        "answer": "In Matcha Cookies, instead of butter, use vegan butter or ½ butter + ¼ applesauce."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour in the Matcha Cookies?",
+        "answer": "In Matcha Cookies, instead of all-purpose flour, use 2 cups oat flour (GF) or whole wheat + oat (healthier)."
+    },
+    {
+        "question": "What can I substitute for brown sugar in the Matcha Cookies?",
+        "answer": "In Matcha Cookies, instead of brown sugar, use ¾ cup coconut sugar."
+    },
+    {
+        "question": "What can I substitute for white sugar in the Matcha Cookies?",
+        "answer": "In Matcha Cookies, instead of white sugar, use ¾ cup coconut sugar."
+    },
+    {
+        "question": "What can I substitute for brown sugar in the Apple Pie?",
+        "answer": "In Apple Pie, instead of brown sugar, use coconut sugar."
+    },
+    {
+        "question": "What can I substitute for white sugar in the Apple Pie?",
+        "answer": "In Apple Pie, instead of white sugar, use maple sugar or raw cane sugar."
+    },
+    {
+        "question": "What can I substitute for butter in the Apple Pie?",
+        "answer": "In Apple Pie, instead of butter, use plant-based block butter or coconut oil (firm)."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour in the Apple Pie?",
+        "answer": "In Apple Pie, instead of all-purpose flour, use oat flour or whole wheat flour."
+    },
+    {
+        "question": "What can I substitute for crust in the Apple Pie?",
+        "answer": "In Apple Pie, instead of crust, use almond + oat crust or gluten-free store-bought."
+    },
+    {
+        "question": "What can I substitute for cream cheese in the Lychee Basque Cheesecake?",
+        "answer": "In Lychee Basque Cheesecake, instead of cream cheese, use vegan cream cheese (almond or soy-based)."
+    },
+    {
+        "question": "What can I substitute for heavy cream in the Lychee Basque Cheesecake?",
+        "answer": "In Lychee Basque Cheesecake, instead of heavy cream, use coconut cream or soy cream."
+    },
+    {
+        "question": "What can I substitute for eggs in the Lychee Basque Cheesecake?",
+        "answer": "In Lychee Basque Cheesecake, instead of eggs, use 3 tbsp cornstarch + 6 tbsp water or ¾ cup unsweetened applesauce."
+    },
+    {
+        "question": "What can I substitute for sugar in the Lychee Basque Cheesecake?",
+        "answer": "In Lychee Basque Cheesecake, instead of sugar, use coconut sugar or maple syrup."
+    },
+    {
+        "question": "What can I substitute for egg in the Japanese Fluffy Pancakes?",
+        "answer": "In Japanese Fluffy Pancakes, instead of egg, use 1 tbsp ground flaxseed + 3 tbsp water (let sit 5 mins)."
+    },
+    {
+        "question": "What can I substitute for yogurt in the Japanese Fluffy Pancakes?",
+        "answer": "In Japanese Fluffy Pancakes, instead of yogurt, use ½ cup plant-based yogurt (soy, coconut, almond)."
+    },
+    {
+        "question": "What can I substitute for milk in the Japanese Fluffy Pancakes?",
+        "answer": "In Japanese Fluffy Pancakes, instead of milk, use plant milk (soy, oat, almond)."
+    },
+    {
+        "question": "What can I substitute for butter in the Japanese Fluffy Pancakes?",
+        "answer": "In Japanese Fluffy Pancakes, instead of butter, use vegan butter or refined coconut oil."
+    },
+    {
+        "question": "What can I substitute for cream in the Japanese Fluffy Pancakes?",
+        "answer": "In Japanese Fluffy Pancakes, instead of cream, use chilled coconut cream, whipped."
+    },
+    {
+        "question": "What can I substitute for flour in the Japanese Fluffy Pancakes?",
+        "answer": "In Japanese Fluffy Pancakes, instead of flour, use whole wheat pastry flour, oat flour, or gluten-free all-purpose blend."
+    },
+    {
+        "question": "What can I substitute for egg in the Raspberry Ice Cream Sandwich?",
+        "answer": "In Raspberry Ice Cream Sandwich, instead of egg, use 1 tbsp flaxseed + 2½ tbsp water (let sit 5 mins)."
+    },
+    {
+        "question": "What can I substitute for flour in the Raspberry Ice Cream Sandwich?",
+        "answer": "In Raspberry Ice Cream Sandwich, instead of flour, use oat flour or whole wheat flour."
+    },
+    {
+        "question": "What can I substitute for butter in the Raspberry Ice Cream Sandwich?",
+        "answer": "In Raspberry Ice Cream Sandwich, instead of butter, use coconut oil, olive oil, or applesauce."
+    },
+    {
+        "question": "What can I substitute for brown sugar in the Raspberry Ice Cream Sandwich?",
+        "answer": "In Raspberry Ice Cream Sandwich, instead of brown sugar, use coconut sugar, mashed banana, or maple syrup."
+    },
+    {
+        "question": "What can I substitute for condensed milk in the Raspberry Ice Cream Sandwich?",
+        "answer": "In Raspberry Ice Cream Sandwich, instead of condensed milk, use sweetened condensed coconut milk or Greek yogurt + maple syrup."
+    },
+    {
+        "question": "What can I substitute for heavy cream in the Raspberry Ice Cream Sandwich?",
+        "answer": "In Raspberry Ice Cream Sandwich, instead of heavy cream, use canned coconut cream (chilled, thick part only)."
+    },
+    {
+        "question": "What can I substitute for egg in the Red Velvet Cookies?",
+        "answer": "In Red Velvet Cookies, instead of egg, use 1 tbsp flaxseed + 3 tbsp water (let sit 5 mins)."
+    },
+    {
+        "question": "What can I substitute for butter in the Red Velvet Cookies?",
+        "answer": "In Red Velvet Cookies, instead of butter, use vegan butter or coconut oil."
+    },
+    {
+        "question": "What can I substitute for flour in the Red Velvet Cookies?",
+        "answer": "In Red Velvet Cookies, instead of flour, use oat flour or whole wheat flour."
+    },
+    {
+        "question": "What can I substitute for cream cheese in the Red Velvet Cookies?",
+        "answer": "In Red Velvet Cookies, instead of cream cheese, use vegan cream cheese or Greek yogurt + honey."
+    },
+    {
+        "question": "What can I substitute for sugar in the Red Velvet Cookies?",
+        "answer": "In Red Velvet Cookies, instead of sugar, use coconut sugar and maple syrup."
+    },
+    {
+        "question": "What can I substitute for red coloring in the Red Velvet Cookies?",
+        "answer": "In Red Velvet Cookies, instead of red coloring, use 1 tsp beet powder."
+    },
+    {
+        "question": "What can I substitute for eggs in the Orange Olive Oil Cake?",
+        "answer": "In Orange Olive Oil Cake, instead of eggs, use Replace with 3 tbsp flaxseed meal + 9 tbsp water (let sit 5 mins)."
+    },
+    {
+        "question": "What can I substitute for yogurt in the Orange Olive Oil Cake?",
+        "answer": "In Orange Olive Oil Cake, instead of yogurt, use Replace with ½ cup coconut yogurt or soy yogurt (vegan)."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour in the Orange Olive Oil Cake?",
+        "answer": "In Orange Olive Oil Cake, instead of all-purpose flour, use Replace with 2 cups oat flour or a mix of 1 cup almond flour + ¾ cup oat flour + ¼ cup tapioca flour (gluten-free)."
+    },
+    {
+        "question": "What can I substitute for white sugar in the Orange Olive Oil Cake?",
+        "answer": "In Orange Olive Oil Cake, instead of white sugar, use Replace with 1 cup coconut sugar or date sugar (healthier)."
+    },
+    {
+        "question": "What can I substitute for olive oil in the Orange Olive Oil Cake?",
+        "answer": "In Orange Olive Oil Cake, instead of olive oil, use Replace with ½ cup olive oil + ¼ cup unsweetened applesauce (healthier)."
+    },
+    {
+        "question": "What can I substitute for cream cheese in the Orange Olive Oil Cake?",
+        "answer": "In Orange Olive Oil Cake, instead of cream cheese, use Replace with vegan cream cheese or Greek yogurt + maple glaze."
+    },
+    {
+        "question": "What can I substitute for powdered sugar in the Orange Olive Oil Cake?",
+        "answer": "In Orange Olive Oil Cake, instead of powdered sugar, use Replace with 1½ cups blended regular sugar (DIY powdered sugar)."
+    },
+    {
+        "question": "What can I substitute for unsalted butter in the Pumpkin Chai Cookies?",
+        "answer": "In Pumpkin Chai Cookies, instead of unsalted butter, use Replace with ½ cup vegan butter (vegan) or ¼ cup coconut oil + ¼ cup unsweetened applesauce (healthy)."
+    },
+    {
+        "question": "What can I substitute for egg yolk in the Pumpkin Chai Cookies?",
+        "answer": "In Pumpkin Chai Cookies, instead of egg yolk, use Replace with 1 tbsp ground flaxseed + 1½ tbsp water (vegan)."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour in the Pumpkin Chai Cookies?",
+        "answer": "In Pumpkin Chai Cookies, instead of all-purpose flour, use Replace with 1½ cups oat flour (gluten-free) or ¾ cup oat flour + ¾ cup almond flour (healthy)."
+    },
+    {
+        "question": "What can I substitute for white sugar in the Pumpkin Chai Cookies?",
+        "answer": "In Pumpkin Chai Cookies, instead of white sugar, use Replace with 2 tbsp maple syrup (healthy)."
+    },
+    {
+        "question": "What can I substitute for brown sugar in the Pumpkin Chai Cookies?",
+        "answer": "In Pumpkin Chai Cookies, instead of brown sugar, use Replace with ⅓ cup coconut sugar (healthy)."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour (crust) in the Pear Oat Pie?",
+        "answer": "In Pear Oat Pie, instead of all-purpose flour (crust), use Use 1¼ cups oat flour (gluten-free) or ½ cup whole wheat + ¾ cup oat flour (healthy)."
+    },
+    {
+        "question": "What can I substitute for butter (crust + crumble) in the Pear Oat Pie?",
+        "answer": "In Pear Oat Pie, instead of butter (crust + crumble), use Replace with cold vegan butter (vegan), or ¼ cup olive oil + 2 tbsp cold water (healthy)."
+    },
+    {
+        "question": "What can I substitute for brown sugar (filling + crumble) in the Pear Oat Pie?",
+        "answer": "In Pear Oat Pie, instead of brown sugar (filling + crumble), use Replace with coconut sugar or 2 tbsp maple syrup (healthy)."
+    },
+    {
+        "question": "What can I substitute for cornstarch in the Pear Oat Pie?",
+        "answer": "In Pear Oat Pie, instead of cornstarch, use Replace with arrowroot powder or tapioca starch (if needed)."
+    },
+    {
+        "question": "What can I substitute for rolled oats in the Pear Oat Pie?",
+        "answer": "In Pear Oat Pie, instead of rolled oats, use Ensure oats are gluten-free certified (for GF)."
+    },
+    {
+        "question": "What can I substitute for vanilla extract in the Pear Oat Pie?",
+        "answer": "In Pear Oat Pie, instead of vanilla extract, use Omit or use vanilla bean paste if needed."
+    },
+    {
+        "question": "What can I substitute for pears in the Pear Oat Pie?",
+        "answer": "In Pear Oat Pie, instead of pears, use Can substitute with apples or firm plums."
+    },
+    {
+        "question": "What can I substitute for egg in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of egg, use Replace with 1 tbsp ground flaxseed + 3 tbsp water (vegan)."
+    },
+    {
+        "question": "What can I substitute for whole milk in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of whole milk, use Use oat milk or almond milk (vegan)."
+    },
+    {
+        "question": "What can I substitute for plain yogurt in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of plain yogurt, use Use plant-based yogurt (vegan) or more oat milk."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of all-purpose flour, use Use oat flour or GF blend with xanthan gum (gluten-free)."
+    },
+    {
+        "question": "What can I substitute for unsalted butter in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of unsalted butter, use Use vegan butter (e.g. Earth Balance, Flora)."
+    },
+    {
+        "question": "What can I substitute for chocolate hazelnut spread in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of chocolate hazelnut spread, use Use vegan chocolate spread (e.g. Justin’s, Nocciolata Dairy-Free)."
+    },
+    {
+        "question": "What can I substitute for heavy cream in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of heavy cream, use Use plant-based milk or cream (vegan)."
+    },
+    {
+        "question": "What can I substitute for sugar (white and brown) in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of sugar (white and brown), use Reduce to ¼ cup white + 2 tbsp brown sugar (healthy)."
+    },
+    {
+        "question": "What can I substitute for oil in the Hazelnut Chocolate Cupcakes?",
+        "answer": "In Hazelnut Chocolate Cupcakes, instead of oil, use Use 2 tbsp oil + ¼ cup unsweetened applesauce (healthy)."
+    },
+    {
+        "question": "What can I substitute for eggs in the Date Cake?",
+        "answer": "In Date Cake, instead of eggs, use Replace with 2 tbsp flaxseed + 6 tbsp water (vegan)."
+    },
+    {
+        "question": "What can I substitute for plain yogurt in the Date Cake?",
+        "answer": "In Date Cake, instead of plain yogurt, use Replace with unsweetened soy or coconut yogurt (vegan)."
+    },
+    {
+        "question": "What can I substitute for milk in the Date Cake?",
+        "answer": "In Date Cake, instead of milk, use Use oat, almond, or soy milk (vegan)."
+    },
+    {
+        "question": "What can I substitute for oil in the Date Cake?",
+        "answer": "In Date Cake, instead of oil, use Use ¼ cup unsweetened applesauce (healthy)."
+    },
+    {
+        "question": "What can I substitute for brown sugar in the Date Cake?",
+        "answer": "In Date Cake, instead of brown sugar, use Replace with date paste or mashed banana (¼ cup) (healthy)."
+    },
+    {
+        "question": "What can I substitute for whole wheat flour in the Date Cake?",
+        "answer": "In Date Cake, instead of whole wheat flour, use Use oat flour (gluten-free)."
+    },
+    {
+        "question": "What can I substitute for honey in the Date Cake?",
+        "answer": "In Date Cake, instead of honey, use Use maple syrup (vegan)."
+    },
+    {
+        "question": "What can I substitute for eggs in the Pecan Pie?",
+        "answer": "In Pecan Pie, instead of eggs, use Replace with 3 tbsp flaxseed + 6 tbsp water (vegan)."
+    },
+    {
+        "question": "What can I substitute for unsalted butter in the Pecan Pie?",
+        "answer": "In Pecan Pie, instead of unsalted butter, use Use vegan butter or coconut oil (vegan)."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour in the Pecan Pie?",
+        "answer": "In Pecan Pie, instead of all-purpose flour, use Use oat flour or almond flour (gluten-free)."
+    },
+    {
+        "question": "What can I substitute for brown sugar in the Pecan Pie?",
+        "answer": "In Pecan Pie, instead of brown sugar, use Replace with coconut sugar (vegan/healthy)."
+    },
+    {
+        "question": "What can I substitute for honey in the Pecan Pie?",
+        "answer": "In Pecan Pie, instead of honey, use Use maple syrup or agave (vegan)."
+    },
+    {
+        "question": "What can I substitute for butter in the Pecan Pie?",
+        "answer": "In Pecan Pie, instead of butter, use Replace with almond butter or coconut oil (healthy)."
+    },
+    {
+        "question": "What can I substitute for eggs in the Lemon Bars?",
+        "answer": "In Lemon Bars, instead of eggs, use Replace with 3 tbsp flaxseed + 9 tbsp water (vegan)."
+    },
+    {
+        "question": "What can I substitute for butter in the Lemon Bars?",
+        "answer": "In Lemon Bars, instead of butter, use Use vegan block butter or replace half with applesauce (healthy)."
+    },
+    {
+        "question": "What can I substitute for all-purpose flour in the Lemon Bars?",
+        "answer": "In Lemon Bars, instead of all-purpose flour, use Use oat flour or almond flour + cornstarch (gluten-free)."
+    },
+    {
+        "question": "What can I substitute for white sugar in the Lemon Bars?",
+        "answer": "In Lemon Bars, instead of white sugar, use Use coconut sugar or honey (for healthy version)."
+    },
+    {
+        "question": "What can I substitute for powdered sugar in the Lemon Bars?",
+        "answer": "In Lemon Bars, instead of powdered sugar, use Use blended coconut sugar (healthy)."
+    },
+    {
+        "question": "What can I substitute for eggs in the Brioche Bread?",
+        "answer": "In Brioche Bread, instead of eggs, use Use 3 tbsp ground flaxseed + 9 tbsp water (vegan)."
+    },
+    {
+        "question": "What can I substitute for milk in the Brioche Bread?",
+        "answer": "In Brioche Bread, instead of milk, use Use any plant milk like oat or soy."
+    },
+    {
+        "question": "What can I substitute for butter in the Brioche Bread?",
+        "answer": "In Brioche Bread, instead of butter, use Use vegan butter or coconut oil."
+    },
+    {
+        "question": "What can I substitute for sugar in the Brioche Bread?",
+        "answer": "In Brioche Bread, instead of sugar, use Use maple syrup or coconut sugar."
+    },
+    {
+        "question": "What can I substitute for bread flour in the Brioche Bread?",
+        "answer": "In Brioche Bread, instead of bread flour, use Use oat flour + 1¼ tsp xanthan gum (gluten-free)."
+    },
+    {
+        "question": "What can I substitute for egg wash in the Brioche Bread?",
+        "answer": "In Brioche Bread, instead of egg wash, use Use 1 tbsp maple syrup + 1 tbsp plant milk."
+    },
+    {
+        "question": "What can I substitute for bread flour in the Blueberry Lemon Sourdough Boule?",
+        "answer": "In Blueberry Lemon Sourdough Boule, instead of bread flour, use Use oat flour (GF)."
+    },
+    {
+        "question": "What can I substitute for whole wheat flour in the Blueberry Lemon Sourdough Boule?",
+        "answer": "In Blueberry Lemon Sourdough Boule, instead of whole wheat flour, use Use buckwheat flour (GF)."
+    },
+    {
+        "question": "What can I substitute for sourdough starter in the Blueberry Lemon Sourdough Boule?",
+        "answer": "In Blueberry Lemon Sourdough Boule, instead of sourdough starter, use Use gluten-free starter (brown rice or buckwheat based)."
+    },
+    {
+        "question": "What can I substitute for lemon zest in the Blueberry Lemon Sourdough Boule?",
+        "answer": "In Blueberry Lemon Sourdough Boule, instead of lemon zest, use Use 1–2 tsp lemon extract if needed."
+    },
+    {
+        "question": "What can I substitute for blueberries in the Blueberry Lemon Sourdough Boule?",
+        "answer": "In Blueberry Lemon Sourdough Boule, instead of blueberries, use Use frozen blueberries directly, no thawing."
+    },
+    {
+        "question": "What can I substitute for Add psyllium husk in the Blueberry Lemon Sourdough Boule?",
+        "answer": "In Blueberry Lemon Sourdough Boule, instead of Add psyllium husk, use Use 1 tsp in gluten-free version for elasticity."
+    },
+    {
+        "question": "What can I substitute for honey in the Olive Oil Focaccia?",
+        "answer": "In Olive Oil Focaccia, instead of honey, use Use sugar or maple syrup for vegan or healthier version."
+    },
+    {
+        "question": "What can I substitute for bread flour in the Olive Oil Focaccia?",
+        "answer": "In Olive Oil Focaccia, instead of bread flour, use Use 1:1 for similar texture."
+    },
+    {
+        "question": "What can I substitute for yeast (active dry) in the Olive Oil Focaccia?",
+        "answer": "In Olive Oil Focaccia, instead of yeast (active dry), use Use same amount, skip proofing."
+    },
+    {
+        "question": "What can I substitute for fresh rosemary in the Olive Oil Focaccia?",
+        "answer": "In Olive Oil Focaccia, instead of fresh rosemary, use Use ½ tsp dried rosemary instead."
+    },
+    {
+        "question": "What can I substitute for cherry tomatoes in the Olive Oil Focaccia?",
+        "answer": "In Olive Oil Focaccia, instead of cherry tomatoes, use Sliced red onion or olives as topping."
+    },
+    {
+        "question": "What can I substitute for olive oil in the Olive Oil Focaccia?",
+        "answer": "In Olive Oil Focaccia, instead of olive oil, use Avocado oil."
+    },
+    {
+        "question": "What can I substitute for egg whites in the Blueberry Macarons?",
+        "answer": "In Blueberry Macarons, instead of egg whites, use Use 6 tbsp aquafaba instead of 90g egg whites."
+    },
+    {
+        "question": "What can I substitute for granulated sugar in the Blueberry Macarons?",
+        "answer": "In Blueberry Macarons, instead of granulated sugar, use Use coconut sugar or erythritol (ground fine)."
+    },
+    {
+        "question": "What can I substitute for powdered sugar in the Blueberry Macarons?",
+        "answer": "In Blueberry Macarons, instead of powdered sugar, use Use powdered erythritol or grind coconut sugar."
+    },
+    {
+        "question": "What can I substitute for butter in the Blueberry Macarons?",
+        "answer": "In Blueberry Macarons, instead of butter, use Use vegan butter."
+    },
+    {
+        "question": "What can I substitute for gel coloring in the Blueberry Macarons?",
+        "answer": "In Blueberry Macarons, instead of gel coloring, use Or skip for natural look."
+    },
+    {
+        "question": "What can I substitute for almond flour in the Blueberry Macarons?",
+        "answer": "In Blueberry Macarons, instead of almond flour, use Sunflower seed flour."
+    }
+]

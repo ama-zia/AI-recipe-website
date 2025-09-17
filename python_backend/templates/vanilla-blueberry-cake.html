@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fluffy Vanilla Blueberry Cake - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Fluffy Vanilla Blueberry Layer Cake</h2>
+
+    <img src="{{ url_for('static', filename='images/vanilla-blueberry-cake.jpeg') }}" alt="Vanilla Blueberry Cake" class="recipe-image">
+
+    <section class="intro-paragraph">
+      <p>
+        There's something quietly irresistible about a good vanilla blueberry cake—something that 
+        feels nostalgic and elevated all at once. The fluffy layers, the gentle sweetness of the 
+        vanilla sponge, and the vibrant bursts of blueberries create a balance that never feels 
+        too rich or too plain. This is the kind of cake that wins over both those who say 
+        “I’m not really a dessert person” and those who unapologetically ask for a second slice.
+      </p>
+      <p>
+        What sets this version apart is the layering of flavors and textures: a delicate cake 
+        crumb, a bright homemade blueberry compote (no soggy berries here), and a whipped cream 
+        cheese frosting that’s soft enough to melt on your tongue, but structured enough to stack. 
+        It’s easy to mess up a layer cake, but with a little patience—and the tips in this recipe—you’ll 
+        get picture-perfect slices every time.
+      </p>
+      <p>
+        And if you’re working around dietary needs, don’t worry. We’ve built this page with an 
+        AI chatbot that can instantly suggest gluten-free, vegan, or healthier substitutions based 
+        on what you have on hand. Just ask for an egg-free version, a lower-sugar alternative, 
+        or a plant-based frosting—you’ll get guidance right away.
+      </p>
+
+      <p><strong>Serving size:</strong> 10–12 slices</p>
+      <p><strong>Baking time:</strong> 25–30 minutes at 175°C / 350°F</p>
+      <p><strong>Cooling time:</strong> 10 minutes in pan, then cool completely on rack</p>
+    </section>
+
+    <section class="description">
+      <h3>What to Expect</h3>
+      <ul>
+        <li>Moist vanilla sponge with bursts of blueberries</li>
+        <li>Sweet-tart blueberry compote (no soggy berries)</li>
+        <li>Light, fluffy vanilla whipped cream cheese frosting</li>
+        <li>Bakery-worthy layering — home baker-friendly</li>
+      </ul>
+    </section>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>Vanilla Cake (3 layers, 8-inch pans):</h4>
+      <ul>
+        <li>2 ½ cups (310g) cake flour (or all-purpose, sifted well)</li>
+        <li>2 ½ tsp baking powder</li>
+        <li>½ tsp baking soda</li>
+        <li>½ tsp salt</li>
+        <li>¾ cup (170g) unsalted butter, softened</li>
+        <li>1 ¾ cups (350g) granulated sugar</li>
+        <li>4 large egg whites (room temp)</li>
+        <li>1 tbsp pure vanilla extract</li>
+        <li>1 cup (240ml) buttermilk (room temp)</li>
+        <li>½ cup (120g) sour cream or Greek yogurt</li>
+        <li>1 ½ cups blueberries (tossed in 1 tbsp flour)</li>
+      </ul>
+
+      <h4>Blueberry Compote (for layering or topping):</h4>
+      <ul>
+        <li>2 cups blueberries (fresh or frozen)</li>
+        <li>⅓ cup (65g) sugar</li>
+        <li>1 tbsp lemon juice</li>
+        <li>1 tbsp cornstarch + 2 tbsp water (slurry)</li>
+        <li>Optional: ½ tsp vanilla extract</li>
+      </ul>
+
+      <h4>Vanilla Whipped Cream Cheese Frosting:</h4>
+      <ul>
+        <li>225g (8 oz) cream cheese, cold</li>
+        <li>½ cup (115g) unsalted butter, softened</li>
+        <li>1 ½ cups (180g) powdered sugar, sifted</li>
+        <li>1 ½ tsp vanilla extract</li>
+        <li>1 cup (240ml) heavy cream, very cold</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Method</h3>
+
+      <p><strong>Step 1: Bake the Cake</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F. Grease and line three 8-inch pans.</li>
+        <li>Whisk flour, baking powder, baking soda, and salt.</li>
+        <li>Cream butter and sugar until pale and fluffy (3–5 mins).</li>
+        <li>Add egg whites gradually, beating well. Add vanilla.</li>
+        <li>Mix in sour cream.</li>
+        <li>Add dry ingredients in 3 parts, alternating with buttermilk. Don’t overmix.</li>
+        <li>Fold in floured blueberries gently.</li>
+        <li>Divide into pans. Bake 25–30 mins or until a toothpick comes out clean.</li>
+        <li>Cool in pans 10 mins, then transfer to racks. Wrap and chill for easy handling.</li>
+      </ol>
+
+      <p><strong>Step 2: Make Blueberry Compote</strong></p>
+      <ol>
+        <li>In a saucepan, cook blueberries, sugar, and lemon juice over medium heat.</li>
+        <li>Once juicy and bubbling, stir in cornstarch slurry. Cook until thick.</li>
+        <li>Stir in vanilla. Cool completely.</li>
+      </ol>
+
+      <p><strong>Step 3: Make the Frosting</strong></p>
+      <ol>
+        <li>Beat cream cheese until smooth (cold is fine). Add butter, beat until fluffy.</li>
+        <li>Add powdered sugar and vanilla.</li>
+        <li>In a separate bowl, whip cream until soft peaks.</li>
+        <li>Gently fold whipped cream into cream cheese mixture until fluffy and spreadable.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with care and cupcakes.</p>
+  </footer>
+</body>
+</html>

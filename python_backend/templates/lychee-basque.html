@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lychee Basque Cheesecake - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Lychee Basque Cheesecake</h2>
+
+    <img src="{{ url_for('static', filename='images/lychee-basque.jpeg') }}" alt="Lychee Basque Cheesecake" class="recipe-image">
+
+    <p>
+      The Lychee Basque Cheesecake is the kind of dessert that impresses without trying too hard. It's soft,
+      floral, and creamy with that signature burnt top that gives it character. The subtle fruitiness of
+      lychee cuts through the richness of the cream cheese beautifully, offering something elegant yet
+      comforting. If you've never baked a Basque cheesecake before, this is a great one to start with—it's
+      forgiving and doesn’t require a perfect crust or water bath. The key is in not overmixing and watching
+      the bake closely near the end. The center should still jiggle when it comes out of the oven.
+    </p>
+    <p>
+      If you're wondering how to make it suit your diet, you're covered. Our AI chatbot can instantly give
+      you vegan, gluten-free, or healthier alternatives—whether it’s swapping out cream for coconut cream,
+      sugar for a low-GI substitute, or finding a cornstarch replacement. Just ask, and it’ll guide you
+      without compromising the flavor or texture.
+    </p>
+
+    <p><strong>Serving Size:</strong> 6–8 servings</p>
+    <p><strong>Baking Time:</strong> 35–40 minutes at 210°C / 410°F (no fan)</p>
+    <p><strong>Cooling Time:</strong> Cool at room temperature, then chill for 4+ hours or overnight</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>500g cream cheese, room temp</li>
+        <li>150g (¾ cup) caster sugar</li>
+        <li>3 large eggs, room temp</li>
+        <li>200ml (¾ cup + 1 tbsp) heavy cream</li>
+        <li>1 tbsp cornstarch, sifted</li>
+        <li>100g lychee puree (see below)</li>
+        <li>1 tsp vanilla extract</li>
+        <li>Pinch of salt</li>
+      </ul>
+
+      <h4>To Make Lychee Puree:</h4>
+      <ul>
+        <li>Use canned lychees in syrup</li>
+        <li>Drain ~8–10 lychees (no syrup)</li>
+        <li>Blend until smooth</li>
+        <li>Strain for a silky texture (optional)</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Instructions</h3>
+
+      <p><strong>Step 1: Prep the Pan</strong></p>
+      <ol>
+        <li>Preheat oven to 210°C / 410°F (no fan).</li>
+        <li>Line a 6-inch or 7-inch springform pan with 2 layers of parchment, leaving overhang.</li>
+      </ol>
+
+      <p><strong>Step 2: Make the Batter</strong></p>
+      <ol>
+        <li>Beat cream cheese until smooth and fluffy.</li>
+        <li>Add sugar and beat for 1–2 mins.</li>
+        <li>Mix in eggs one at a time, beating well after each.</li>
+        <li>Pour in cream, lychee puree, vanilla, and salt. Mix gently.</li>
+        <li>Sift in cornstarch and whisk until silky smooth. Don’t overmix.</li>
+      </ol>
+
+      <p><strong>Step 3: Bake It</strong></p>
+      <ol>
+        <li>Pour batter into the prepared pan.</li>
+        <li>Bake at 210°C / 410°F for 35–40 mins until:
+          <ul>
+            <li>The top is bronzed or scorched</li>
+            <li>The center jiggles softly</li>
+          </ul>
+        </li>
+        <li>Cool at room temp. It will deflate — totally normal.</li>
+      </ol>
+
+      <p><strong>Step 4: Chill</strong></p>
+      <ol>
+        <li>Chill for 4+ hours or overnight for best texture.</li>
+        <li>Optional: let sit at room temp before serving for a softer center.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Floral, creamy, and burnt in all the right ways.</p>
+  </footer>
+</body>
+</html>

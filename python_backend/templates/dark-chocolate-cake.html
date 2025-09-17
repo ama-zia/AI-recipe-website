@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Chocolate Cherry Cake - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Dark Chocolate Cherry Cake</h2>
+
+    <div class="recipe-image">
+      <img src="{{ url_for('static', filename='images/cherry-chocolate-cake.jpeg') }}" alt="Dark Chocolate Cherry Cake">
+    </div>
+
+    <p>
+      This Dark Chocolate Cherry Cake brings together the deep richness of cocoa and the tart brightness 
+      of cherries in a way that feels indulgent but still balanced. The cake layers are moist and deeply 
+      chocolatey, enhanced with coffee for depth, while the cherry compote adds a fresh pop of fruitiness 
+      that cuts through the richness. The ganache frosting pulls everything together with its smooth texture 
+      and dark, glossy finish. To get this cake just right, make sure to chill your layers before assembling 
+      to avoid sliding or uneven stacking. Don't skip blooming the cocoa in hot coffee — it's key to unlocking 
+      maximum chocolate flavor. We've also made things easier with an AI chatbot on this site that can provide 
+      you with vegan, gluten-free, or low-sugar alternatives for every ingredient in this recipe. Just ask, 
+      and you'll get substitutions tailored to your needs or pantry.
+    </p>
+
+    <p><strong>Serving Size:</strong> Serves 10–12</p>
+    <p><strong>Bake Time:</strong> 25–30 minutes</p>
+    <p><strong>Oven Temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Cooling Time:</strong> 1 hour (before layering)</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>Chocolate Cake (3 layers, 8-inch pans):</h4>
+      <ul>
+        <li>1 ¾ cups (220g) all-purpose flour</li>
+        <li>¾ cup (65g) unsweetened cocoa powder</li>
+        <li>2 cups (400g) granulated sugar</li>
+        <li>1 ½ tsp baking powder</li>
+        <li>1 ½ tsp baking soda</li>
+        <li>1 tsp salt</li>
+        <li>2 large eggs (room temp)</li>
+        <li>1 cup (240ml) buttermilk (room temp)</li>
+        <li>½ cup (120ml) neutral oil</li>
+        <li>1 tbsp vanilla extract</li>
+        <li>1 cup (240ml) hot strong coffee</li>
+      </ul>
+
+      <h4>Cherry Compote Filling:</h4>
+      <ul>
+        <li>2 cups (300g) pitted cherries</li>
+        <li>¼ cup (50g) sugar</li>
+        <li>1 tbsp lemon juice</li>
+        <li>1 tbsp cornstarch + 2 tbsp water</li>
+        <li>Optional: 1–2 tbsp kirsch</li>
+      </ul>
+
+      <h4>Fluffy Dark Chocolate Ganache Frosting:</h4>
+      <ul>
+        <li>300g dark chocolate (60–70%)</li>
+        <li>1 ½ cups (360ml) heavy cream</li>
+        <li>Pinch of salt</li>
+        <li>Optional: 1 tbsp butter for shine</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Step-by-Step Directions</h3>
+      <p><strong>Step 1: Make the Chocolate Cake</strong></p>
+      <ol>
+        <li>Preheat oven to 175°C / 350°F. Grease and line pans.</li>
+        <li>Mix flour, cocoa, sugar, baking powder, soda, salt.</li>
+        <li>Add eggs, buttermilk, oil, vanilla – mix well.</li>
+        <li>Slowly pour in hot coffee. Batter will be thin.</li>
+        <li>Divide into pans. Bake 25–30 mins.</li>
+        <li>Cool, wrap in plastic, and chill before layering.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with care and cupcakes.</p>
+  </footer>
+</body>
+</html>

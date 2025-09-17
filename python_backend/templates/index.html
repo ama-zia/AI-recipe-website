@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sweet Delights Blog</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  
+</head>
+<body>
+  <header>
+    <div class="homepagepicture">
+      <img src="{{ url_for('static', filename='images/bakingwebsitehomepage.jpeg') }}" alt="home page baking picture">
+      <h1>Stone&Sugar</h1>
+    </div>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+      <a href="{{ url_for('main_bp.chat_page') }}">Chat</a>
+    </nav>
+
+  </header>
+
+  <main class="home">
+    <section>
+      <h2>Welcome to Stone&Sugar</h2>
+      <p>Your go-to place for cute, indulgent recipes full of love, chocolate, and charm 💕</p>
+      <a href="{{ url_for('auth_bp.signup') }}">Sign Up</a>
+      <a href="{{ url_for('auth_bp.login') }}">Log In</a>
+    </section>
+
+    <section>
+      <h2>Quick Recipe Access</h2>
+      <div class="category-grid">
+        <a href="{{ url_for('main_bp.recipes_page') }}#cakes" class="category-card">
+          <img src="{{ url_for('static', filename='images/vanilla-blueberry-cake.jpeg') }}" alt="Cakes">
+          <span>Cakes</span>
+        </a>
+        <a href="{{ url_for('main_bp.recipes_page') }}#cookies" class="category-card">
+          <img src="{{ url_for('static', filename='images/matcha-cookies.jpeg') }}" alt="Cookies">
+          <span>Cookies</span>
+        </a>
+        <a href="{{ url_for('main_bp.recipes_page') }}#cupcakes&pies" class="category-card">
+          <img src="{{ url_for('static', filename='images/hazelnut-chocolate-cupcakes.jpeg') }}" alt="Cupcakes">
+          <span>Cupcakes</span>
+        </a>
+        <a href="{{ url_for('main_bp.recipes_page') }}#breads" class="category-card">
+          <img src="{{ url_for('static', filename='images/brioche.jpeg') }}" alt="Breads">
+          <span>Breads</span>
+        </a>
+        <a href="{{ url_for('main_bp.recipes_page') }}#no-bake" class="category-card">
+          <img src="{{ url_for('static', filename='images/raspberry-ice-cream-sandwich.jpeg') }}" alt="No-Bake">
+          <span>No-Bake</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ and cupcakes.</p>
+  </footer>
+</body>
+</html>

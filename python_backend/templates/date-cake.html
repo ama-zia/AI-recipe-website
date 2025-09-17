@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Date Cake - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Date Cake</h2>
+
+    <img src="{{ url_for('static', filename='images/date-cake.jpeg') }}" alt="Date Cake" class="recipe-image">
+
+    <p>
+      A good date cake is more than just a sweet treat—it's the kind of dessert that feels 
+      like a quiet win. With its deep, caramel-like flavor from the softened dates, a soft 
+      crumb from the yogurt and whole wheat flour, and a satisfying crunch from the walnuts, 
+      this cake finds the right balance between indulgent and nourishing. Whether you’re 
+      baking for guests or keeping it all to yourself for the week ahead, nailing this cake 
+      means paying attention to a few simple details: don’t skip soaking the dates, mix the 
+      wet and dry ingredients with care, and don’t overbake it. The result? A moist, golden 
+      loaf that slices beautifully and doesn’t even need frosting—though a light yogurt glaze 
+      takes it to another level if you’re feeling extra. And if you're looking for a vegan, 
+      gluten-free, or healthier version of this exact recipe, our built-in AI baking assistant 
+      is here to help. It’ll guide you through ingredient swaps that actually work—not just 
+      guesses—so you can enjoy this cake however you like it.
+    </p>
+
+    <p><strong>Serving size:</strong> One loaf or 8-inch round cake</p>
+    <p><strong>Baking temperature:</strong> 175°C / 350°F</p>
+    <p><strong>Baking time:</strong> 35–45 minutes</p>
+    <p><strong>Cooling time:</strong> 10 minutes in pan, then fully on wire rack</p>
+
+    <section class="ingredients">
+      <h3>Ingredients (for 1 loaf or 8-inch cake)</h3>
+      <h4>Dry:</h4>
+      <ul>
+        <li>1 cup (120g) whole wheat flour</li>
+        <li>½ tsp baking soda</li>
+        <li>½ tsp baking powder</li>
+        <li>¼ tsp salt</li>
+        <li>½ tsp cinnamon (optional)</li>
+      </ul>
+
+      <h4>Date-Walnut Mix:</h4>
+      <ul>
+        <li>1½ cups (225g) chopped soft dates</li>
+        <li>½ cup (120ml) hot water</li>
+        <li>¼ tsp baking soda</li>
+        <li>½ cup (60g) chopped walnuts</li>
+      </ul>
+
+      <h4>Wet:</h4>
+      <ul>
+        <li>¼ cup (60ml) oil</li>
+        <li>¼ cup (60g) plain yogurt</li>
+        <li>2 tbsp (30ml) milk</li>
+        <li>2 large eggs</li>
+        <li>¼ cup (50g) brown sugar (or coconut sugar)</li>
+        <li>1 tsp vanilla extract</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <li><strong>Soften Dates:</strong> In a bowl, mix dates, hot water, and ¼ tsp baking soda. Let sit 10 mins, then mash lightly. Set aside.</li>
+        <li><strong>Mix Wet Ingredients:</strong> In a large bowl, whisk eggs, yogurt, oil, milk, vanilla, and sugar. Stir in softened dates.</li>
+        <li><strong>Mix Dry Ingredients:</strong> In another bowl, whisk flour, baking powder, baking soda, salt, and cinnamon.</li>
+        <li><strong>Combine:</strong> Fold dry ingredients into wet just until combined. Gently stir in walnuts.</li>
+        <li><strong>Bake:</strong> Preheat oven to 175°C / 350°F. Grease and line a loaf pan or 8-inch round tin. Pour in batter. Bake 35–45 mins until a skewer comes out clean or with moist crumbs.</li>
+        <li><strong>Cool:</strong> Let cake rest in the pan 10 minutes, then cool fully on a wire rack.</li>
+      </ol>
+    </section>
+
+    <section class="frosting">
+      <h3>Optional Yogurt Glaze</h3>
+      <ul>
+        <li>2 tbsp Greek yogurt</li>
+        <li>1–2 tbsp honey or maple syrup</li>
+        <li>1–2 tbsp milk (to thin)</li>
+      </ul>
+      <p><strong>Method:</strong> Whisk all glaze ingredients until smooth. Pour over cooled cake and let set.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Sticky, soft, and cozy — a naturally sweet date delight</p>
+  </footer>
+</body>
+</html>

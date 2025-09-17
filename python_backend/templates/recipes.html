@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Recipes - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipes">
+    <h2>Our Recipes</h2>
+    <input type="text" id="recipe-search" placeholder="Search recipes by name, ingredient or category...">
+
+    <!-- Cakes Section -->
+    <section id="cakes">
+      <div class="recipe-card" data-keywords="chocolate cake cherry dessert">
+        <img src="{{ url_for('static', filename='images/cherry-chocolate-cake.jpeg') }}" alt="Dark Chocolate Cherry Cake">
+        <div class="recipe-info">
+          <h3>Dark Chocolate Cherry Cake</h3>
+          <p>A dreamy cake with rich chocolate layers, cherry compote, and whipped ganache 🍒🍫</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='dark-chocolate-cake') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="vanilla blueberry cake dessert">
+        <img src="{{ url_for('static', filename='images/vanilla-blueberry-cake.jpeg') }}" alt="Fluffy Vanilla Blueberry Cake">
+        <div class="recipe-info">
+          <h3>Fluffy Vanilla Blueberry Cake</h3>
+          <p>Vanilla sponge, blueberry compote & dreamy whipped cream cheese frosting 🫐🍰</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='vanilla-blueberry-cake') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="banana salted caramel cake dessert">
+        <img src="{{ url_for('static', filename='images/banana-cake.jpeg') }}" alt="Salted Caramel Banana Cake">
+        <div class="recipe-info">
+          <h3>Salted Caramel Banana Cake</h3>
+          <p>Moist banana cake with luscious salted caramel frosting and a touch of sea salt ✨🍌</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='banana-cake') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="carrot cake cream cheese pineapple pecan dessert">
+        <img src="{{ url_for('static', filename='images/carrot-cake.jpeg') }}" alt="Carrot Cake with Cream Cheese Frosting">
+        <div class="recipe-info">
+          <h3>Carrot Cake with Cream Cheese Frosting</h3>
+          <p>Super moist, spiced carrot cake with pineapple, pecans, and fluffy vanilla cream cheese frosting 🥕🍦</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='carrot-cake') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="lychee basque cheesecake cake dessert">
+        <img src="{{ url_for('static', filename='images/lychee-basque.jpeg') }}" alt="Lychee Basque Cheesecake">
+        <div class="recipe-info">
+          <h3>Lychee Basque Cheesecake</h3>
+          <p>Burnt on top, creamy in the middle, scented with floral lychee 🍰🌸</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='lychee-basque') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="japanese pancakes cake dessert breakfast">
+        <img src="{{ url_for('static', filename='images/japanese-pancakes.jpeg') }}" alt="Japanese Fluffy Pancakes">
+        <div class="recipe-info">
+          <h3>Japanese Fluffy Pancakes</h3>
+          <p>Soft, airy, and tall — served with strawberries and whipped vanilla cream 🍓🍦</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='japanese-pancakes') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="apple cinnamon cake dessert">
+        <img src="{{ url_for('static', filename='images/apple-cake.jpeg') }}" alt="Apple Cake">
+        <div class="recipe-info">
+          <h3>Apple Cake</h3>
+          <p>Warm, spiced, and fluffy — filled with juicy apples and cinnamon 🍎🍰</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='apple-cake') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="orange olive oil cake dessert citrus">
+        <img src="{{ url_for('static', filename='images/orange-olive-oil-cake.jpeg') }}" alt="Orange Olive Oil Cake">
+        <div class="recipe-info">
+          <h3>Orange Olive Oil Cake</h3>
+          <p>Ultra-moist cake with fresh citrus, creamy frosting & Mediterranean flair 🌿🍊</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='orange-olive-oil-cake') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="date walnut cake dessert">
+        <img src="{{ url_for('static', filename='images/date-cake.jpeg') }}" alt="Date Cake">
+        <div class="recipe-info">
+          <h3>Date Cake</h3>
+          <p>Moist & naturally sweet cake with soft dates, walnuts & a hint of cinnamon 🍰🌰</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='date-cake') }}">View Recipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cookies Section -->
+    <section id="cookies">
+      <div class="recipe-card" data-keywords="matcha green tea cookies dessert">
+        <img src="{{ url_for('static', filename='images/matcha-cookies.jpeg') }}" alt="Chewy Matcha Cookies">
+        <div class="recipe-info">
+          <h3>Chewy Matcha Cookies</h3>
+          <p>Earthy and sweet with a soft chewy center and golden edges 💚 Perfect with tea!</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='matcha-cookies') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="red velvet cocoa cookies cream cheese dessert">
+        <img src="{{ url_for('static', filename='images/red-velvet-cookies.jpeg') }}" alt="Red Velvet Cookies">
+        <div class="recipe-info">
+          <h3>Red Velvet Cookies</h3>
+          <p>Rich cocoa cookies with a hint of red + dreamy cream cheese frosting 💋</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='red-velvet-cookies') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="blueberry macarons cookies dessert">
+        <img src="{{ url_for('static', filename='images/blueberry-macarons.jpeg') }}" alt="Blueberry Macarons">
+        <div class="recipe-info">
+          <h3>Blueberry Macarons</h3>
+          <p>Crispy outside, chewy inside — filled with vibrant blueberry buttercream 💜</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='blueberry-macarons') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="lemon bars citrus cookies dessert">
+        <img src="{{ url_for('static', filename='images/lemon-bars.jpeg') }}" alt="Lemon Bars">
+        <div class="recipe-info">
+          <h3>Lemon Bars</h3>
+          <p>Buttery shortbread + bright lemon filling = tangy, sweet magic 🍋</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='lemon-bars') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="pumpkin chai cookies spice dessert">
+        <img src="{{ url_for('static', filename='images/pumpkin-chai-cookies.jpeg') }}" alt="Pumpkin Chai Cookies">
+        <div class="recipe-info">
+          <h3>Pumpkin Chai Cookies</h3>
+          <p>Spiced cookies with cozy chai flavors and a crisp sugar coating 🍪🎃</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='pumpkin-chai-cookies') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="gingerbread cookies spice dessert holiday">
+        <img src="{{ url_for('static', filename='images/gingerbread-cookies.jpeg') }}" alt="Gingerbread Cookies">
+        <div class="recipe-info">
+          <h3>Gingerbread Cookies</h3>
+          <p>Soft centers, crisp edges, warm molasses-spice flavor 🎄</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='gingerbread-cookies') }}">View Recipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cupcakes & Pies Section -->
+    <section id="cupcakes&pies">
+      <div class="recipe-card" data-keywords="apple crumble pie dessert">
+        <img src="{{ url_for('static', filename='images/apple-pie.jpeg') }}" alt="Apple Crumble Pie">
+        <div class="recipe-info">
+          <h3>Apple Crumble Pie</h3>
+          <p>Sweet-tart apples, cinnamon sugar, buttery crumble. A warm hug in pie form 🥧🍎</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='apple-pie') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="hazelnut chocolate cupcakes dessert">
+        <img src="{{ url_for('static', filename='images/hazelnut-chocolate-cupcakes.jpeg') }}" alt="Hazelnut Chocolate Cupcakes">
+        <div class="recipe-info">
+          <h3>Hazelnut Chocolate Cupcakes</h3>
+          <p>Moist chocolate cupcakes with toasted hazelnuts and Nutella frosting 🌰🍫🧁</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='hazelnut-chocolate-cupcakes') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="pecan pie dessert nuts">
+        <img src="{{ url_for('static', filename='images/pecan-pie.jpeg') }}" alt="Pecan Pie">
+        <div class="recipe-info">
+          <h3>Pecan Pie</h3>
+          <p>Golden, gooey & nutty pie with toasted pecans in a buttery crust 🥧🌰</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='pecan-pie') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="pear oat pie dessert crumble">
+        <img src="{{ url_for('static', filename='images/pear-oat-pie.jpeg') }}" alt="Pear Oat Pie">
+        <div class="recipe-info">
+          <h3>Pear Oat Pie</h3>
+          <p>Juicy pear filling with a golden oat crumble in a crisp flaky crust 🍐🥧</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='pear-oat-pie') }}">View Recipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Breads Section -->
+    <section id="Breads">
+      <div class="recipe-card" data-keywords="brioche bread dessert breakfast">
+        <img src="{{ url_for('static', filename='images/brioche.jpeg') }}" alt="Brioche Bread">
+        <div class="recipe-info">
+          <h3>Brioche Bread</h3>
+          <p>Buttery, rich, and slightly sweet — perfect for toasting or snacking 🍞✨</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='brioche') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="cinnamon rolls bread breakfast dessert">
+        <img src="{{ url_for('static', filename='images/cinnamon-rolls.jpeg') }}" alt="Cream Cheese Cinnamon Rolls">
+        <div class="recipe-info">
+          <h3>Cream Cheese Cinnamon Rolls</h3>
+          <p>Fluffy, gooey cinnamon rolls with cream cheese frosting and optional caramel bottom 🍯🍦</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='cinnamon-rolls') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="sourdough blueberry lemon bread citrus breakfast">
+        <img src="{{ url_for('static', filename='images/blueberry-lemon-sourdough.jpeg') }}" alt="Sourdough Blueberry Lemon Bread">
+        <div class="recipe-info">
+          <h3>Sourdough Blueberry Lemon Boule</h3>
+          <p>Rustic, tangy sourdough filled with bursts of blueberry and fresh lemon 🍋</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='blueberry-lemon-sourdough') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="focaccia bread olive oil italian savory">
+        <img src="{{ url_for('static', filename='images/focaccia.jpeg') }}" alt="Golden Olive Oil Focaccia">
+        <div class="recipe-info">
+          <h3>Olive Oil Focaccia</h3>
+          <p>Golden, bubbly, crisp-edged focaccia with your favorite toppings 🫒🌿</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='olive-oil-focaccia') }}">View Recipe</a>
+        </div>
+      </div>
+
+      <div class="recipe-card" data-keywords="chocolate croissants bread pastry chocolate breakfast">
+        <img src="{{ url_for('static', filename='images/chocolate-croissants.jpeg') }}" alt="Chocolate Croissants">
+        <div class="recipe-info">
+          <h3>Chocolate Croissants</h3>
+          <p>Buttery, flaky pastry filled with rich dark chocolate 🍫</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='chocolate-croissants') }}">View Recipe</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- No-Bake Section -->
+    <section id="no-bake">
+      <div class="recipe-card" data-keywords="raspberry ice cream sandwich no-bake dessert">
+        <img src="{{ url_for('static', filename='images/raspberry-ice-cream-sandwich.jpeg') }}" alt="Raspberry Ice Cream Sandwich">
+        <div class="recipe-info">
+          <h3>Raspberry Ice Cream Sandwich</h3>
+          <p>Creamy vanilla ice cream + fruity compote between soft oat cookies 🍓🍦</p>
+          <a class="btn" href="{{ url_for('main_bp.recipe_page', recipe_name='raspberry-ice-cream-sandwich') }}">View Recipe</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made with love.</p>
+  </footer>
+
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

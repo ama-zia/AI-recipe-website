@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pear Oat Pie - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Stone&Sugar</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Pear Oat Pie</h2>
+
+    <img src="{{ url_for('static', filename='images/pear-oat-pie.jpeg') }}" alt="Pear Oat Pie" class="recipe-image">
+
+    <p>
+      Pear Oat Pie is one of those timeless desserts that brings together the rustic comfort of baked fruit and the 
+      warmth of a buttery oat topping. It’s a bake that doesn’t try too hard, yet it delivers flavor and texture 
+      that feel effortless but impressive. The juicy softness of ripe pears contrasts beautifully with the crisp oat 
+      crumble, while the flaky crust gives the whole thing structure and balance. 
+    </p>
+    <p>
+      To really ace this dessert, start with pears that are ripe but still firm—this keeps the filling from 
+      becoming mushy. Keep your butter cold for both the crust and crumble; it’s key to getting those tender layers 
+      and crunchy golden topping. Letting the pie cool is non-negotiable—it gives the filling time to set, so every 
+      slice holds its shape. 
+    </p>
+    <p>
+      If you're working with dietary preferences or restrictions, our built-in AI chatbot is available to help you 
+      customize this recipe in seconds. Whether you're looking for a gluten-free crust, a vegan butter alternative, 
+      or lower-sugar swaps, just ask and get smart, reliable substitutions tailored to your needs—so you never have 
+      to miss out on dessert.
+    </p>
+
+    <p><strong>Serving Size:</strong> 8 slices</p>
+    <p><strong>Bake Time:</strong> 45–55 minutes at 190°C / 375°F</p>
+    <p><strong>Cool Time:</strong> At least 1 hour before serving</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+
+      <h4>For the Crust:</h4>
+      <ul>
+        <li>1¼ cups (155g) all-purpose flour</li>
+        <li>½ cup (115g) cold unsalted butter, cubed</li>
+        <li>1 tbsp sugar</li>
+        <li>¼ tsp salt</li>
+        <li>3–4 tbsp ice water</li>
+        <li><em>Optional:</em> Store-bought pie shell</li>
+      </ul>
+
+      <h4>For the Pear Filling:</h4>
+      <ul>
+        <li>5–6 firm ripe pears, peeled, cored, sliced ½ cm thick</li>
+        <li>¼ cup (50g) brown sugar</li>
+        <li>2 tbsp cornstarch</li>
+        <li>1 tbsp lemon juice</li>
+        <li>1 tsp vanilla extract</li>
+        <li>1 tsp cinnamon</li>
+        <li>¼ tsp nutmeg</li>
+        <li>Pinch of salt</li>
+      </ul>
+
+      <h4>For the Crisp Oat Crumble:</h4>
+      <ul>
+        <li>¾ cup (75g) rolled oats</li>
+        <li>½ cup (60g) all-purpose flour</li>
+        <li>½ cup (100g) brown sugar</li>
+        <li>½ tsp cinnamon</li>
+        <li>Pinch salt</li>
+        <li>½ cup (115g) cold butter, cubed</li>
+      </ul>
+    </section>
+
+    <section class="steps">
+      <h3>Method</h3>
+
+      <p><strong>1. Prepare the Crust</strong></p>
+      <ol>
+        <li>Mix flour, salt, and sugar in a bowl.</li>
+        <li>Cut in cold butter until mixture looks like crumbs.</li>
+        <li>Add ice water one tablespoon at a time until dough forms.</li>
+        <li>Shape into a disc, wrap, and chill 30 mins.</li>
+        <li>Roll and press into 9" pie dish. Prick with fork. Chill again.</li>
+        <li>Optional: Blind bake at 190°C / 375°F for 10 mins.</li>
+      </ol>
+
+      <p><strong>2. Make the Filling</strong></p>
+      <ol>
+        <li>Toss pear slices with sugar, cornstarch, lemon juice, vanilla, cinnamon, nutmeg, and salt.</li>
+        <li>Let sit while prepping the crumble — juices will release.</li>
+      </ol>
+
+      <p><strong>3. Make the Crumble</strong></p>
+      <ol>
+        <li>Mix oats, flour, sugar, cinnamon, and salt in a bowl.</li>
+        <li>Rub in cold butter until it forms chunky crumbs.</li>
+      </ol>
+
+      <p><strong>4. Assemble & Bake</strong></p>
+      <ol>
+        <li>Preheat oven to 190°C / 375°F.</li>
+        <li>Pour pear filling into chilled crust (include juices).</li>
+        <li>Top with oat crumble evenly.</li>
+        <li>Bake 45–55 mins until golden and bubbly.</li>
+        <li>If crumble browns too fast, tent with foil.</li>
+      </ol>
+
+      <p><strong>5. Cool & Serve</strong></p>
+      <ol>
+        <li>Cool for at least 1 hour so filling sets.</li>
+        <li>Serve warm with whipped cream, vanilla ice cream, or caramel drizzle.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Juicy pears and crunchy oats baked into cozy heaven.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blueberry Lemon Sourdough - Sweet Delights</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>Sweet Delights</h1>
+    <nav>
+      <a href="{{ url_for('main_bp.home') }}">Home</a>
+      <a href="{{ url_for('main_bp.recipes_page') }}">Recipes</a>
+    </nav>
+  </header>
+
+  <main class="recipe-detail">
+    <h2>Blueberry Lemon Sourdough Boule</h2>
+
+    <img src="{{ url_for('static', filename='images/blueberry-lemon-sourdough.jpeg') }}" 
+         alt="Blueberry Lemon Sourdough Boule" class="recipe-image">
+
+    <p>
+      The Blueberry Lemon Sourdough Boule is a unique twist on traditional sourdough, combining the tang of lemon zest
+      with the juicy sweetness of blueberries. It's not just a loaf; it's a celebration of contrasts—crisp crust meets
+      tender crumb, fruity brightness meets earthy fermentation. It might seem like a bakery-level challenge, but with
+      careful attention to temperature and fermentation timing, even a home baker can achieve that signature open crumb
+      and vibrant flavor.
+    </p>
+    <p>
+      Make sure your sourdough starter is active and bubbly before you start. Don’t rush the cold proof—this step develops
+      the texture and flavor that make this boule so memorable. If your dough feels tricky to handle after adding berries,
+      use wet hands and a gentle touch to keep from tearing the gluten structure. And for those with dietary needs, we’ve
+      got you covered—our built-in AI chatbot is ready to offer gluten-free, vegan, or health-conscious substitutions for
+      any ingredient in this recipe. Just ask, and it will guide you.
+    </p>
+
+    <p><strong>Serving Size:</strong> Makes 1 medium boule (6–8 slices)</p>
+    <p><strong>Baking Time:</strong> 20 minutes covered, then 20–25 minutes uncovered</p>
+    <p><strong>Oven Temperature:</strong> 260°C / 500°F (preheat) → 230°C / 450°F (for uncovered bake)</p>
+    <p><strong>Cool Time:</strong> 1–2 hours before slicing</p>
+
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <h4>For the Dough:</h4>
+      <ul>
+        <li>400g bread flour</li>
+        <li>100g whole wheat flour</li>
+        <li>375g water (warm, ~80–85°F / 27–29°C)</li>
+        <li>100g active sourdough starter</li>
+        <li>9g (1½ tsp) fine sea salt</li>
+      </ul>
+      <h4>Add-ins (after bulk starts):</h4>
+      <ul>
+        <li>150g fresh or frozen blueberries (don’t thaw)</li>
+        <li>Zest of 1–2 lemons</li>
+        <li>Optional: 1 tbsp lemon juice</li>
+      </ul>
+    </section>
+
+    <section class="instructions">
+      <h3>Step-by-Step Instructions</h3>
+      <ol>
+        <li><strong>Mix Dough (Autolyse):</strong> In a large bowl, mix flours and water until just combined. Cover and rest 45–60 minutes.</li>
+        <li><strong>Add Starter & Salt:</strong> Add sourdough starter and salt. Use stretch & folds or kneading to mix for 3–5 minutes.</li>
+        <li><strong>Bulk Fermentation (4–5 hrs):</strong> Do 4 stretch & folds every 30 minutes. Add blueberries and lemon zest on 2nd or 3rd fold. Handle gently.</li>
+        <li><strong>Pre-Shape & Bench Rest:</strong> Turn dough onto a floured surface. Shape gently into a round and let rest uncovered for 20 min.</li>
+        <li><strong>Final Shape:</strong> Shape into tight boule. Place in floured banneton or towel-lined bowl dusted with rice flour.</li>
+        <li><strong>Cold Proof:</strong> Cover and refrigerate for 12–18 hours.</li>
+        <li><strong>Bake:</strong>  
+          <ul>
+            <li>Preheat oven to 500°F / 260°C with Dutch oven inside.</li>
+            <li>Place dough on parchment, score top.</li>
+            <li>Bake 20 min covered, then 20–25 min uncovered at 450°F / 230°C.</li>
+          </ul>
+        </li>
+        <li><strong>Cool:</strong> Cool completely (1–2 hours) before slicing for best texture.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>Bright, tangy, and rustic — this sourdough is perfect for breakfast or a cozy brunch</p>
+  </footer>
+</body>
+</html>

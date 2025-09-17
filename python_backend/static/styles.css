@@ -1,0 +1,164 @@
+/* Super Luxurious Auth Page Styling */
+
+/* Base */
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #fdf6ef, #fffaf3);
+  color: #432714;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Form Container */
+form.chat-container {
+  background: #fff9f2;
+  padding: 40px 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 12px 30px rgba(204, 153, 102, 0.2);
+  border: 3px solid #f1e0c3;
+  backdrop-filter: blur(3px);
+}
+
+/* Headers */
+.home h2 {
+  font-size: 2.6em;
+  color: #B88B4A;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-shadow: 1px 1px #e9d2b4;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 2px solid #e6c79c;
+  font-size: 1em;
+  background-color: #fff;
+  color: #432714;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #c49a6c;
+  outline: none;
+  background-color: #fffaf3;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #C49A6C, #B88B4A);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #B88B4A, #A8773A);
+  transform: translateY(-2px);
+}
+
+/* Welcome/Home Page */
+.home p {
+  font-size: 1.3em;
+  margin-top: 20px;
+  color: #6a4c30;
+  background-color: #fff8ef;
+  padding: 15px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(204, 153, 102, 0.15);
+}
+
+/* Logout Link */
+a.btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #C49A6C;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: #A8773A;
+}
+
+
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  form.chat-container {
+    padding: 30px 20px;
+  }
+
+  .home h2 {
+    font-size: 2em;
+  }
+
+  button {
+    font-size: 1em;
+  }
+}
+
+/* Full-page background image */
+.auth-background {
+  background-image: url('/images/bg.jpeg'); /* Put your image in public/images/bg.jpg */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional dark overlay over background image */
+.auth-background::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 0;
+}
+
+/* Wrapper for everything */
+.auth-wrapper {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Website heading over form */
+.site-heading {
+  font-size: 2.5em;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+

@@ -1,0 +1,461 @@
+[
+    {
+        "name": "Gingerbread Cookies",
+        "link": "gingerbread-cookies.html",
+        "season": "winter",
+        "keywords": ["gingerbread", "holiday", "vegan", "gluten-free"],
+        "substitutions": {
+            "egg": "Use 1 tbsp ground flaxseed + 3 tbsp water",
+            "butter": "Use vegan butter or coconut oil"
+        },
+        "versions": {
+            "vegan": "Replace butter with vegan butter, egg with flaxseed + water.",
+            "glutenfree": "Use oat flour or GF flour blend.",
+            "healthy": "Use whole wheat flour, coconut sugar, coconut oil."
+        },
+        "pantry": ["flour", "sugar", "molasses", "butter", "egg"]
+    },
+    {
+        "name": "Chocolate Cherry Cake",
+        "link": "dark-chocolate-cake.html",
+        "keywords": ["chocolate", "cherry", "cake", "dark"],
+        "season": "summer",
+        "pantry": ["flour", "sugar", "cocoa", "baking powder", "baking soda", "salt", "vanilla", "oil", "egg", "milk", "cherry"],
+        "substitutions": {
+            "eggs": "2 flax eggs (2 tbsp flaxseed + 6 tbsp water)",
+            "coffee": "hot water",
+            "buttermilk": "1 cup milk + 1 tbsp lemon juice",
+            "oil": "melted coconut oil",
+            "kirsch": "cherry juice"
+        },
+        "versions": {
+            "vegan": "Flax eggs, plant milk + vinegar, vegan chocolate, coconut cream.",
+            "glutenfree": "Use gluten‑free flour + ½ tsp xanthan gum.",
+            "healthy": "Use whole wheat flour, reduce sugar, applesauce, sugar‑free dark chocolate."
+        }
+    },
+    {
+        "name": "Vanilla Blueberry Cake",
+        "link": "vanilla-blueberry-cake.html",
+        "keywords": ["vanilla", "blueberry", "cake", "spring"],
+        "season": "spring",
+        "pantry": ["flour", "sugar", "baking powder", "baking soda", "salt", "butter", "vanilla", "egg", "blueberry", "milk", "cream cheese", "cream"],
+        "substitutions": {
+            "egg": "Use 1 tbsp flaxseed + 3 tbsp water per egg white",
+            "butter": "Use coconut oil or vegan butter",
+            "buttermilk": "Use plant milk + lemon juice",
+            "flour": "Use oat or almond flour + xanthan gum",
+            "sourCream": "Use coconut yogurt",
+            "creamCheese": "Use vegan cream cheese",
+            "cream": "Use chilled coconut cream"
+        },
+        "versions": {
+            "vegan": "Oat/spelt flour, flax eggs, vegan butter, plant yogurt, vegan cream cheese.",
+            "glutenfree": "Oat or almond flour + xanthan gum; frosting is naturally GF.",
+            "healthy": "Whole wheat pastry flour, coconut sugar, Greek yogurt, light frosting."
+        }
+    },
+    {
+        "name": "Cinnamon Rolls",
+        "link": "cinnamon-rolls.html",
+        "keywords": ["cinnamon", "roll", "autumn", "frosting"],
+        "season": "autumn",
+        "pantry": ["flour", "sugar", "salt", "yeast", "butter", "oil", "milk", "vanilla", "cinnamon", "egg", "cream cheese", "powdered sugar"],
+        "substitutions": {
+            "milk": "soy, oat, or almond milk",
+            "eggs": "flax eggs (1 tbsp flax + 3 tbsp water per egg)",
+            "butter": "vegan butter, coconut oil, or applesauce",
+            "flour": "gluten-free flour blend + 1 tsp xanthan gum (if not included)",
+            "creamCheese": "vegan cream cheese or Greek yogurt",
+            "sugar": "coconut sugar or maple syrup",
+            "powderedSugar": "blended coconut sugar or maple syrup"
+        },
+        "versions": {
+            "vegan": "Soy/almond milk, flax eggs, vegan butter, vegan cream cheese.",
+            "glutenfree": "Use GF flour blend + xanthan gum. Rest of recipe is naturally GF.",
+            "healthy": "Whole wheat + oat flour, coconut sugar, olive oil/applesauce, yogurt frosting."
+        }
+    },
+    {
+        "name": "Banana Cake",
+        "link": "banana-cake.html",
+        "keywords": ["banana", "cake", "caramel", "winter"],
+        "season": "winter",
+        "pantry": ["flour", "sugar", "salt", "baking powder", "baking soda", "vanilla", "butter", "bananas"],
+        "substitutions": {
+            "eggs": "2 tbsp ground flaxseed + 6 tbsp water",
+            "butter": "vegan butter, coconut oil, or mashed avocado + olive oil",
+            "flour": "oat flour + almond flour or gluten-free blend + xanthan gum",
+            "yogurt": "coconut or soy yogurt",
+            "honey": "maple syrup or agave",
+            "milk": "almond, oat, or soy milk",
+            "powderedSugar": "date paste or maple syrup"
+        },
+        "versions": {
+            "vegan": "Vegan butter, flax eggs, plant-based yogurt, maple/agave syrup.",
+            "glutenfree": "Oat or gluten-free flour blend + xanthan gum.",
+            "healthy": "Mashed avocado, olive oil, almond/oat flour, coconut sugar, date frosting drizzle."
+        }
+    },
+    {
+        "name": "Carrot Cake",
+        "link": "carrot-cake.html",
+        "keywords": ["carrot", "cake", "easter", "spring"],
+        "season": "winter",
+        "pantry": ["flour", "sugar", "oil", "baking soda", "baking powder", "vanilla", "carrots", "pineapple", "pecans"],
+        "substitutions": {
+            "eggs": "4 tbsp ground flaxseed + 12 tbsp water (let sit 10 min)",
+            "flour": "2 cups gluten-free flour blend + 1 tsp xanthan gum or 1 cup almond flour + 1 cup oat flour",
+            "brownSugar": "½ cup coconut sugar",
+            "whiteSugar": "¼ cup date sugar or omit",
+            "oil": "½ cup applesauce or ¼ cup olive oil + ¼ cup yogurt",
+            "butter": "½ cup vegan butter or 1 tbsp almond butter",
+            "creamCheese": "225g vegan cream cheese or 225g whipped Greek yogurt",
+            "powderedSugar": "2–3 tbsp maple syrup or 3 tbsp blended dates"
+        },
+        "versions": {
+            "vegan": "Replace: - Eggs → 4 tbsp flaxseed + 12 tbsp water (let sit 10 min) - Butter → ½ cup vegan butter - Cream cheese → 225g vegan cream cheese - Powdered sugar → use organic powdered sugar - Sugar → use organic brown & white sugar",
+            "glutenfree": "Replace: - Flour → 2 cups gluten-free flour blend + 1 tsp xanthan gum Note: All other ingredients are naturally gluten-free.",
+            "healthy": "Replace: - Flour → 1 cup almond flour + 1 cup oat flour - Sugar → ½ cup coconut sugar or date sugar - Oil → ½ cup applesauce or ¼ cup olive oil + ¼ cup yogurt - Eggs → 2 eggs + 2 egg whites (lighter) or 4 tbsp flaxseed for fiber - Frosting → 225g whipped Greek yogurt, 1 tbsp nut butter, 2–3 tbsp maple syrup"
+        }
+    },
+    {
+        "name": "Matcha Cookies",
+        "link": "matcha-cookies.html",
+        "season": "winter",
+        "substitutions": {
+            "egg": "1 tbsp ground flaxseed + 3 tbsp water",
+            "eggs": "1 tbsp ground flaxseed + 3 tbsp water",
+            "butter": "vegan butter or ½ butter + ¼ applesauce",
+            "all-purpose flour": "2 cups oat flour (GF) or whole wheat + oat (healthier)",
+            "brown sugar": "¾ cup coconut sugar",
+            "white sugar": "¾ cup coconut sugar"
+        },
+        "versions": {
+            "vegan": "Replace butter with ¾ cup vegan butter and egg with 1 tbsp flaxseed + 3 tbsp water.",
+            "glutenfree": "Use 2 cups oat flour instead of all-purpose flour. Ensure oats and baking soda are GF certified.",
+            "healthy": "Use 1½ cups whole wheat + ½ cup oat flour; replace butter with ½ cup butter + ¼ cup applesauce; replace sugars with ¾ cup coconut sugar."
+        }
+    },
+    {
+        "name": "Apple Pie",
+        "link": "apple-pie.html",
+        "season": "autumn",
+        "keywords": ["apple", "apple pie", "apple crumble", "crumble pie"],
+        "substitutions": {
+            "brown sugar": "coconut sugar",
+            "white sugar": "maple sugar or raw cane sugar",
+            "butter": "plant-based block butter or coconut oil (firm)",
+            "all-purpose flour": "oat flour or whole wheat flour",
+            "crust": "almond + oat crust or gluten-free store-bought"
+        },
+        "versions": {
+            "vegan": "Use vegan butter (⅓ cup plant-based block butter), make your own crust with vegetable shortening or vegan butter, and use vegan-certified sugars.",
+            "glutenfree": "Use ¾ cup gluten-free oat flour in crumble; replace apple mix flour with ½ tbsp cornstarch; use GF-certified oats and a GF crust.",
+            "healthy": "Use coconut sugar for both sugars, ¾ cup whole wheat flour in crumble, ¼ cup butter + 1 tbsp applesauce, and extra nuts for healthy fats."
+        },
+        "pantry": ["flour", "brown sugar", "white sugar", "butter", "vegan butter", "oats", "cinnamon", "vanilla extract", "salt", "pie crust", "apples", "lemon juice", "nuts"]
+    },
+    {
+        "name": "Lychee Basque Cheesecake",
+        "link": "lychee-basque.html",
+        "season": "spring",
+        "keywords": ["lychee", "cheesecake", "lychee cheesecake", "basque", "basque cheesecake"],
+        "substitutions": {
+            "cream cheese": "vegan cream cheese (almond or soy-based)",
+            "heavy cream": "coconut cream or soy cream",
+            "eggs": "3 tbsp cornstarch + 6 tbsp water or ¾ cup unsweetened applesauce",
+            "sugar": "coconut sugar or maple syrup"
+        },
+        "versions": {
+            "vegan": "Use 500g vegan cream cheese, 200ml coconut or soy cream, and replace eggs with 3 tbsp cornstarch + 6 tbsp water (or ¾ cup applesauce). Ensure sugar is vegan.",
+            "glutenfree": "The recipe is naturally gluten-free! Just check your cornstarch and canned lychees are certified GF.",
+            "healthy": "Use light cream cheese or Greek yogurt, coconut sugar or maple syrup instead of caster sugar, and light coconut cream. Fresh lychees are lower sugar than canned."
+        },
+        "pantry": ["cream cheese", "vegan cream cheese", "sugar", "caster sugar", "coconut sugar", "eggs", "cornstarch", "applesauce", "heavy cream", "coconut cream", "vanilla extract", "salt", "lychees", "lychee purée"]
+    },
+    {
+        "name": "Japanese Fluffy Pancakes",
+        "link": "japanese-pancakes.html",
+        "season": "summer",
+        "keywords": ["pancakes", "japanese pancakes", "fluffy pancakes", "souffle pancakes"],
+        "substitutions": {
+            "egg": "1 tbsp ground flaxseed + 3 tbsp water (let sit 5 mins)",
+            "yogurt": "½ cup plant-based yogurt (soy, coconut, almond)",
+            "milk": "plant milk (soy, oat, almond)",
+            "butter": "vegan butter or refined coconut oil",
+            "cream": "chilled coconut cream, whipped",
+            "flour": "whole wheat pastry flour, oat flour, or gluten-free all-purpose blend"
+        },
+        "versions": {
+            "vegan": "Egg → 1 tbsp flaxseed + 3 tbsp water, Yogurt → plant yogurt, Milk → plant milk, Butter → vegan butter, Cream → whipped coconut cream.",
+            "glutenfree": "Use ¾ cup gluten-free all-purpose blend (with xanthan gum). Ensure baking powder/soda are gluten-free.",
+            "healthy": "Use whole wheat or oat flour, coconut sugar or maple syrup, low-fat Greek or plant yogurt, and avocado oil for cooking."
+        },
+        "pantry": ["flour", "gluten-free flour", "baking powder", "baking soda", "sugar", "salt", "egg", "plant yogurt", "yogurt", "milk", "plant milk", "vanilla extract", "butter", "vegan butter", "strawberries", "lemon juice", "powdered sugar", "cream", "coconut cream"]
+    },
+    {
+        "name": "Raspberry Ice Cream Sandwich",
+        "link": "raspberry-ice-cream-sandwich.html",
+        "season": "summer",
+        "keywords": ["ice cream sandwich", "raspberry", "oat cookies", "no-churn", "summer dessert"],
+        "substitutions": {
+            "egg": "1 tbsp flaxseed + 2½ tbsp water (let sit 5 mins)",
+            "flour": "oat flour or whole wheat flour",
+            "butter": "coconut oil, olive oil, or applesauce",
+            "brown sugar": "coconut sugar, mashed banana, or maple syrup",
+            "condensed milk": "sweetened condensed coconut milk or Greek yogurt + maple syrup",
+            "heavy cream": "canned coconut cream (chilled, thick part only)"
+        },
+        "versions": {
+            "vegan": "Cookies: Coconut oil + flax egg. Ice Cream: Coconut cream + coconut condensed milk.",
+            "glutenfree": "Cookies: GF oats + oat flour. Ice cream is naturally GF.",
+            "healthy": "Cookies: Coconut sugar + mashed banana, oat flour, olive oil or applesauce. Ice Cream: Greek yogurt + maple syrup."
+        },
+        "pantry": ["rolled oats", "oat flour", "all-purpose flour", "baking soda", "salt", "brown sugar", "coconut sugar", "vanilla extract", "coconut oil", "olive oil", "flaxseed", "raspberries", "lemon juice", "maple syrup", "condensed milk", "sweetened condensed coconut milk", "heavy cream", "coconut cream"]
+    },
+    {
+        "name": "Red Velvet Cookies",
+        "link": "red-velvet-cookies.html",
+        "season": "winter",
+        "keywords": ["red velvet", "cookies", "cream cheese", "holiday dessert", "festive", "baking"],
+        "substitutions": {
+            "egg": "1 tbsp flaxseed + 3 tbsp water (let sit 5 mins)",
+            "butter": "vegan butter or coconut oil",
+            "flour": "oat flour or whole wheat flour",
+            "cream cheese": "vegan cream cheese or Greek yogurt + honey",
+            "sugar": "coconut sugar and maple syrup",
+            "red coloring": "1 tsp beet powder"
+        },
+        "versions": {
+            "vegan": "Use vegan butter, flax egg, dairy-free cream cheese, and vegan white chocolate (or skip).",
+            "glutenfree": "Use 1½ cups oat flour. Ensure baking soda and cocoa powder are gluten-free.",
+            "healthy": "Use coconut sugar + maple syrup, applesauce for egg, oat or whole wheat flour, and light yogurt frosting."
+        },
+        "pantry": ["all-purpose flour", "oat flour", "baking soda", "salt", "cocoa powder", "brown sugar", "white sugar", "coconut sugar", "maple syrup", "butter", "vegan butter", "vanilla extract", "egg", "flaxseed", "cream cheese", "vegan cream cheese", "beet powder", "white chocolate chips"]
+    },
+    {
+        "name": "Orange Olive Oil Cake",
+        "link": "orange-olive-oil-cake.html",
+        "season": "summer",
+        "keywords": ["orange", "olive oil", "citrus cake", "brunch cake", "moist cake", "winter cake", "cream cheese frosting"],
+        "substitutions": {
+            "eggs → 3 large eggs": "Replace with 3 tbsp flaxseed meal + 9 tbsp water (let sit 5 mins)",
+            "yogurt → ½ cup plain yogurt": "Replace with ½ cup coconut yogurt or soy yogurt (vegan)",
+            "all-purpose flour → 2 cups": "Replace with 2 cups oat flour or a mix of 1 cup almond flour + ¾ cup oat flour + ¼ cup tapioca flour (gluten-free)",
+            "white sugar → 1 cup": "Replace with 1 cup coconut sugar or date sugar (healthier)",
+            "olive oil → 1 cup": "Replace with ½ cup olive oil + ¼ cup unsweetened applesauce (healthier)",
+            "cream cheese → 225g": "Replace with vegan cream cheese or Greek yogurt + maple glaze",
+            "powdered sugar → 1½ cups": "Replace with 1½ cups blended regular sugar (DIY powdered sugar)"
+        },
+        "versions": {
+            "vegan": "Replace eggs with flax eggs (1 tbsp flax + 3 tbsp water per egg), yogurt with coconut or soy yogurt, and use vegan cream cheese and butter for frosting.",
+            "glutenfree": "Replace all-purpose flour with 2 cups oat flour or a combo of almond flour, oat flour, and tapioca flour. Ensure baking soda/powder are gluten-free.",
+            "healthy": "Use ½ cup olive oil + ¼ cup applesauce, replace sugar with coconut sugar, and flour with whole wheat or oat flour. Skip frosting or use Greek yogurt glaze."
+        },
+        "pantry": ["oat flour", "almond flour", "tapioca flour", "baking powder", "baking soda", "salt", "olive oil", "coconut oil", "coconut sugar", "white sugar", "brown sugar", "eggs", "flaxseed", "plain yogurt", "coconut yogurt", "orange juice", "orange zest", "cream cheese", "vegan cream cheese", "applesauce", "vanilla", "cinnamon"]
+    },
+    {
+        "name": "Pumpkin Chai Cookies",
+        "link": "pumpkin-chai-cookies.html",
+        "season": "autumn",
+        "keywords": ["pumpkin cookies", "chai cookies", "spiced cookies", "fall baking", "autumn cookies", "pumpkin spice", "egg-free", "vegan cookies", "gluten-free cookies", "healthy cookies"],
+        "substitutions": {
+            "unsalted butter → ½ cup (115g)": "Replace with ½ cup vegan butter (vegan) or ¼ cup coconut oil + ¼ cup unsweetened applesauce (healthy)",
+            "egg yolk → 1 yolk": "Replace with 1 tbsp ground flaxseed + 1½ tbsp water (vegan)",
+            "all-purpose flour → 1½ cups (190g)": "Replace with 1½ cups oat flour (gluten-free) or ¾ cup oat flour + ¾ cup almond flour (healthy)",
+            "white sugar → ¼ cup (50g)": "Replace with 2 tbsp maple syrup (healthy)",
+            "brown sugar → ½ cup (100g)": "Replace with ⅓ cup coconut sugar (healthy)"
+        },
+        "versions": {
+            "vegan": "Use ½ cup vegan butter instead of butter, and 1 tbsp flaxseed + 1½ tbsp water instead of egg yolk. Ensure sugar is vegan-certified.",
+            "glutenfree": "Use 1½ cups certified gluten-free oat flour instead of all-purpose flour. Chill the dough before baking.",
+            "healthy": "Use ¼ cup coconut oil + ¼ cup unsweetened applesauce instead of butter. Use ⅓ cup coconut sugar + 2 tbsp maple syrup instead of white and brown sugar. Replace flour with ¾ cup oat flour + ¾ cup almond flour."
+        },
+        "pantry": ["oat flour", "almond flour", "baking soda", "salt", "cinnamon", "ginger", "cardamom", "cloves", "allspice", "pumpkin puree", "flaxseed", "coconut oil", "vegan butter", "brown sugar", "white sugar", "coconut sugar", "maple syrup", "vanilla extract"]
+    },
+    {
+        "name": "Pear Oat Pie",
+        "link": "pear-oat-pie.html",
+        "season": "winter",
+        "keywords": ["pear pie", "oat pie", "fall pie", "crumble pie", "gluten-free pear pie", "vegan pie", "healthy pie", "fruit pie", "thanksgiving dessert", "easy oat crumble"],
+        "substitutions": {
+            "all-purpose flour (crust) → 1¼ cups (155g)": "Use 1¼ cups oat flour (gluten-free) or ½ cup whole wheat + ¾ cup oat flour (healthy)",
+            "butter (crust + crumble) → ½ cup (115g)": "Replace with cold vegan butter (vegan), or ¼ cup olive oil + 2 tbsp cold water (healthy)",
+            "brown sugar (filling + crumble) → ¼–½ cup": "Replace with coconut sugar or 2 tbsp maple syrup (healthy)",
+            "cornstarch → 2 tbsp": "Replace with arrowroot powder or tapioca starch (if needed)",
+            "rolled oats → ¾ cup": "Ensure oats are gluten-free certified (for GF)",
+            "vanilla extract → 1 tsp": "Omit or use vanilla bean paste if needed",
+            "pears → 5–6": "Can substitute with apples or firm plums"
+        },
+        "versions": {
+            "vegan": "Use vegan butter instead of regular butter in crust and crumble. Filling is already vegan.",
+            "glutenfree": "Use oat flour for both crust and crumble. Ensure oats are gluten-free certified. Add ½ tsp xanthan gum to crust if needed.",
+            "healthy": "Use ¼ cup olive oil + 2 tbsp cold water instead of butter for crust. Use maple syrup or coconut sugar in place of brown sugar. Crumble can be made with coconut oil or olive oil and topped with nuts."
+        },
+        "pantry": ["oat flour", "whole wheat flour", "rolled oats", "brown sugar", "coconut sugar", "maple syrup", "cinnamon", "nutmeg", "salt", "cornstarch", "arrowroot", "vanilla extract", "butter", "vegan butter", "olive oil", "lemon juice", "pears"]
+    },
+    {
+        "name": "Hazelnut Chocolate Cupcakes",
+        "link": "hazelnut-chocolate-cupcakes.html",
+        "season": "autumn",
+        "keywords": ["hazelnut cupcakes", "chocolate cupcakes", "fall baking", "vegan cupcakes", "gluten-free cupcakes", "healthy dessert", "cupcake frosting", "dairy-free baking"],
+        "substitutions": {
+            "egg → 1 large": "Replace with 1 tbsp ground flaxseed + 3 tbsp water (vegan)",
+            "whole milk → ½ cup (120ml)": "Use oat milk or almond milk (vegan)",
+            "plain yogurt → ½ cup (120ml)": "Use plant-based yogurt (vegan) or more oat milk",
+            "all-purpose flour → ¾ cup (95g)": "Use oat flour or GF blend with xanthan gum (gluten-free)",
+            "unsalted butter → ½ cup (115g)": "Use vegan butter (e.g. Earth Balance, Flora)",
+            "chocolate hazelnut spread → ⅓ cup (90g)": "Use vegan chocolate spread (e.g. Justin’s, Nocciolata Dairy-Free)",
+            "heavy cream → 2 tbsp": "Use plant-based milk or cream (vegan)",
+            "sugar (white and brown) → ¾ cup total": "Reduce to ¼ cup white + 2 tbsp brown sugar (healthy)",
+            "oil → ⅓ cup (80ml)": "Use 2 tbsp oil + ¼ cup unsweetened applesauce (healthy)"
+        },
+        "versions": {
+            "vegan": "Replace egg with flaxseed mix, dairy milk with oat/almond milk, yogurt with dairy-free yogurt, and butter/spread with vegan versions. Use vegan sugar and chocolate.",
+            "glutenfree": "Use ¾ cup (90g) oat flour or gluten-free blend with xanthan gum. Ensure baking powder and chocolate are gluten-free certified.",
+            "healthy": "Use whole wheat pastry flour, reduce sugar, swap half the oil with unsweetened applesauce, and skip or simplify frosting using Greek yogurt + cocoa + maple syrup."
+        },
+        "pantry": ["all-purpose flour", "oat flour", "cocoa powder", "baking soda", "baking powder", "salt", "granulated sugar", "brown sugar", "vegetable oil", "unsweetened applesauce", "vanilla extract", "coffee or water", "hazelnuts", "milk (dairy or oat/almond)", "butter (regular or vegan)", "chocolate spread (vegan optional)", "powdered sugar"]
+    },
+    {
+        "name": "Date Cake",
+        "link": "date-cake.html",
+        "season": "winter",
+        "keywords": ["date cake", "moist date loaf", "healthy cake", "vegan date cake", "gluten-free cake", "autumn desserts", "eggless date cake", "whole wheat baking"],
+        "substitutions": {
+            "eggs → 2 large": "Replace with 2 tbsp flaxseed + 6 tbsp water (vegan)",
+            "plain yogurt → ¼ cup (60g)": "Replace with unsweetened soy or coconut yogurt (vegan)",
+            "milk → 2 tbsp": "Use oat, almond, or soy milk (vegan)",
+            "oil → ¼ cup": "Use ¼ cup unsweetened applesauce (healthy)",
+            "brown sugar → ¼ cup (50g)": "Replace with date paste or mashed banana (¼ cup) (healthy)",
+            "whole wheat flour → 1 cup (120g)": "Use oat flour (gluten-free)",
+            "honey → 1–2 tbsp": "Use maple syrup (vegan)"
+        },
+        "versions": {
+            "vegan": "Use flax eggs, plant-based yogurt, and oat/almond milk. Replace honey with maple syrup in glaze.",
+            "glutenfree": "Replace flour with 1 cup oat flour. Add ¼ tsp xanthan gum if needed.",
+            "healthy": "Use applesauce instead of oil, Greek yogurt for protein, and reduce or skip sugar. Keep whole wheat flour or use oat flour."
+        },
+        "pantry": ["whole wheat flour", "oat flour", "baking soda", "baking powder", "salt", "cinnamon", "dates", "walnuts", "oil", "applesauce", "brown sugar", "vanilla extract", "eggs or flaxseed", "milk (dairy or plant)", "plain or plant yogurt", "maple syrup"]
+    },
+    {
+        "name": "Pecan Pie",
+        "link": "pecan-pie.html",
+        "season": "autumn",
+        "keywords": ["pecan pie", "vegan pecan pie", "gluten-free pecan pie", "healthy pecan pie", "thanksgiving pie", "flax egg pie", "autumn dessert", "holiday baking", "nut pie"],
+        "substitutions": {
+            "eggs → 3 large": "Replace with 3 tbsp flaxseed + 6 tbsp water (vegan)",
+            "unsalted butter → ½ cup (crust) + ¼ cup (filling)": "Use vegan butter or coconut oil (vegan)",
+            "all-purpose flour → 1¼ cups + 1 tbsp": "Use oat flour or almond flour (gluten-free)",
+            "brown sugar → 1 cup": "Replace with coconut sugar (vegan/healthy)",
+            "honey → ¼ cup": "Use maple syrup or agave (vegan)",
+            "butter in filling → ¼ cup": "Replace with almond butter or coconut oil (healthy)"
+        },
+        "versions": {
+            "vegan": "Use oat or GF flour crust, flax eggs, vegan butter or coconut oil, and maple/agave in place of honey.",
+            "glutenfree": "Use oat or almond flour for crust and filling; confirm syrups and vanilla are gluten-free.",
+            "healthy": "Use coconut/date sugar, almond butter, applesauce for honey, whole wheat or oat flour."
+        },
+        "pantry": ["flour (all-purpose, oat, or GF blend)", "brown sugar or coconut sugar", "maple syrup or agave", "vanilla extract", "salt", "pecans", "eggs or flaxseed", "butter or oil", "water"]
+    },
+    {
+        "name": "Lemon Bars",
+        "link": "lemon-bars.html",
+        "season": "summer",
+        "keywords": ["lemon bars", "lemon dessert", "vegan lemon bars", "gluten-free lemon bars", "healthy lemon bars", "easy lemon squares", "spring dessert", "zesty dessert"],
+        "substitutions": {
+            "eggs → 3 large": "Replace with 3 tbsp flaxseed + 9 tbsp water (vegan)",
+            "butter → ½ cup": "Use vegan block butter or replace half with applesauce (healthy)",
+            "all-purpose flour → 1 cup": "Use oat flour or almond flour + cornstarch (gluten-free)",
+            "white sugar → 1 cup": "Use coconut sugar or honey (for healthy version)",
+            "powdered sugar → ¼ cup": "Use blended coconut sugar (healthy)"
+        },
+        "versions": {
+            "vegan": "Use vegan butter and flaxseed-water mix for eggs in both crust and filling.",
+            "glutenfree": "Use oat flour or almond flour mix for crust and filling; confirm ingredients are GF.",
+            "healthy": "Use whole wheat flour, coconut sugar or honey, applesauce, and a mix of butter + olive oil."
+        },
+        "pantry": ["flour (all-purpose, oat, or almond)", "sugar (white, powdered, coconut, or honey)", "eggs or flaxseed", "butter or vegan butter", "lemons", "salt"]
+    },
+    {
+        "name": "Brioche Bread",
+        "link": "brioche.html",
+        "season": "winter",
+        "keywords": ["brioche", "brioche bread", "brioche buns", "vegan brioche", "gluten-free brioche", "healthy brioche", "spring baking", "enriched bread"],
+        "substitutions": {
+            "eggs → 3 large": "Use 3 tbsp ground flaxseed + 9 tbsp water (vegan)",
+            "milk → ⅓ cup": "Use any plant milk like oat or soy",
+            "butter → ¾ cup": "Use vegan butter or coconut oil",
+            "sugar → 2 tbsp": "Use maple syrup or coconut sugar",
+            "bread flour → 3¼ cups": "Use oat flour + 1¼ tsp xanthan gum (gluten-free)",
+            "egg wash → 1 egg + 1 tbsp milk": "Use 1 tbsp maple syrup + 1 tbsp plant milk"
+        },
+        "versions": {
+            "vegan": "Replace eggs with flaxseed mix, use plant milk, vegan butter, and maple syrup wash.",
+            "glutenfree": "Use oat flour + xanthan gum, and gluten-free certified milk, butter, and yeast.",
+            "healthy": "Use whole wheat + oat flour, reduce sugar, add applesauce, and use skim or almond milk."
+        },
+        "pantry": ["flour (bread, oat, or wheat)", "sugar or coconut sugar", "salt", "yeast", "eggs or flaxseed", "butter or vegan butter", "milk (dairy or plant)", "vanilla extract (optional)"]
+    },
+    {
+        "name": "Blueberry Lemon Sourdough Boule",
+        "link": "blueberry-lemon-sourdough.html",
+        "season": "summer",
+        "keywords": ["sourdough", "blueberry lemon bread", "vegan sourdough", "gluten-free sourdough", "healthy sourdough", "spring baking", "fruit sourdough", "boule", "no yeast bread"],
+        "substitutions": {
+            "bread flour → 400g": "Use oat flour (GF)",
+            "whole wheat flour → 100g": "Use buckwheat flour (GF)",
+            "sourdough starter → 100g": "Use gluten-free starter (brown rice or buckwheat based)",
+            "lemon zest → 1–2 lemons": "Use 1–2 tsp lemon extract if needed",
+            "blueberries → 150g": "Use frozen blueberries directly, no thawing",
+            "Add psyllium husk": "Use 1 tsp in gluten-free version for elasticity"
+        },
+        "versions": {
+            "vegan": "Already vegan. Just ensure starter is flour + water based with no dairy or honey.",
+            "glutenfree": "Use oat and buckwheat flour, add 1 tsp psyllium husk, and a gluten-free sourdough starter.",
+            "healthy": "Use 300g whole wheat + 200g oat flour. Optionally reduce blueberries to 100g."
+        },
+        "pantry": ["bread flour or oat flour", "whole wheat or buckwheat flour", "salt", "water", "sourdough starter", "blueberries (fresh or frozen)", "lemon zest or lemon extract"]
+    },
+    {
+        "name": "Olive Oil Focaccia",
+        "link": "olive-oil-focaccia.html",
+        "season": "winter",
+        "keywords": ["focaccia", "olive oil bread", "vegan focaccia", "gluten-free focaccia", "healthy focaccia", "fall baking", "herb bread", "flatbread", "no knead bread"],
+        "substitutions": {
+            "honey → sugar": "Use sugar or maple syrup for vegan or healthier version",
+            "bread flour → all-purpose": "Use 1:1 for similar texture",
+            "yeast (active dry) → instant": "Use same amount, skip proofing",
+            "fresh rosemary → dried": "Use ½ tsp dried rosemary instead",
+            "cherry tomatoes → onions or olives": "Sliced red onion or olives as topping",
+            "olive oil → avocado oil": "For moisture, not flavor"
+        },
+        "versions": {
+            "vegan": "Use sugar instead of honey (if used); all other ingredients are plant-based.",
+            "glutenfree": "Use 3 cups oat flour + 1 cup tapioca flour + 2 tsp xanthan gum. Dough will be sticky and doesn’t need kneading.",
+            "healthy": "Use 3 cups whole wheat + 1 cup all-purpose flour, 1.5 tbsp olive oil, and roasted veggies instead of extra oil or cheese."
+        },
+        "pantry": ["flour (bread or all-purpose)", "salt", "sugar or honey", "instant or active dry yeast", "olive oil", "warm water", "optional: garlic, dried herbs, chili flakes"]
+    },
+    {
+        "name": "Blueberry Macarons",
+        "link": "blueberry-macarons.html",
+        "season": "summer",
+        "keywords": ["blueberry macarons", "french macarons", "vegan macarons", "gluten-free dessert", "healthy macarons", "pastel spring treats", "berry buttercream", "almond flour cookies"],
+        "substitutions": {
+            "egg whites → aquafaba": "Use 6 tbsp aquafaba instead of 90g egg whites",
+            "granulated sugar → coconut sugar": "Use coconut sugar or erythritol (ground fine)",
+            "powdered sugar → erythritol": "Use powdered erythritol or grind coconut sugar",
+            "butter → vegan butter": "Same amount, softer texture",
+            "gel coloring → berry powder": "Or skip for natural look",
+            "almond flour → sunflower seed flour": "Nut-free option, same quantity"
+        },
+        "versions": {
+            "vegan": "Use aquafaba instead of egg whites, vegan butter for the buttercream. Ensure sugars are vegan-certified.",
+            "glutenfree": "Naturally gluten-free as it uses almond flour. Ensure all other ingredients are certified GF.",
+            "healthy": "Use erythritol for sugar substitutes, replace some butter with a lighter alternative like applesauce in the filling, and use fresh berries for color."
+        },
+        "pantry": ["almond flour", "aquafaba", "egg whites", "granulated sugar", "coconut sugar", "powdered sugar", "butter", "vegan butter", "blueberries", "lemon juice"]
+    }
+]
