@@ -117,7 +117,7 @@ The frontend is composed of HTML, CSS, and JavaScript.
 1. Navigate to the project directory:
 
    ```bash
-   cd recipewebsite
+   cd AI-recipe-website
    ```
 2. Install required dependencies:
 
